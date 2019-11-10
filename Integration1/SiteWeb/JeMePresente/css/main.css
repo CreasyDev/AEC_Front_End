@@ -1,0 +1,17 @@
+/* MAIN STYLE CSS */
+
+/* TABLEAU */
+table#tableau1 {
+    width: 800px;
+    border-collapse: collapse;
+}
+
+#tableau1 th, td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+/* PAGE ÉTUDES */
+.hauteur {
+    height: 800px;
+}

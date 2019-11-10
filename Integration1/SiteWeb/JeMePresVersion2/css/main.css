@@ -1,0 +1,77 @@
+/* MAIN STYLE CSS */
+
+/* General */
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+
+/* PAGE INDEX */
+
+.mainHeading {
+    width: 600px;
+    margin: 0 auto;
+}
+
+a#myPhoto img {
+    width: 500px;
+    border-radius: 100%;
+}
+
+a#myPhoto, h1 {
+    width: 600px;
+    text-align: center;
+    display: block;
+}
+
+/* navigation */
+#mainNav ul {
+     list-style: none;
+     display: flex;
+     justify-content: center;
+}
+
+#mainNav ul li a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+}
+
+#mainNav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+table#tableau1 {
+    width: 800px;
+    border-collapse: collapse;
+}
+
+#tableau1 th, td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+/* PAGE ÉTUDES */
+.hauteur {
+    height: 800px;
+}
+
+
+/* PAGE LOISIRS */
+ol#loisirs {
+    font-size: 1.5rem;
+}
+
+
+
+
+/* PAGE SPORTS */
+
+
