@@ -1,6 +1,6 @@
 /* MAIN STYLE CSS */
 
-/* General */
+/* ------- General ------- */
 
 .active {
     font-weight: bold;
@@ -24,7 +24,8 @@ a.button {
 }
 
 
-/* PAGE INDEX */
+/* ---------------- PAGE INDEX ---------------- */
+/* -------------------------------------------- */
 
 .mainHeading {
     width: 600px;
@@ -43,7 +44,8 @@ a#myPhoto, h1 {
     display: block;
 }
 
-/* navigation */
+/* ----- navigation ----- */
+/* ---------------------- */
 #mainNav ul {
      list-style: none;
      display: flex;
@@ -70,13 +72,15 @@ table#tableau1 {
     padding: 10px;
 }
 
-/* PAGE ÉTUDES */
+/* ---------------- PAGE ÉTUDES ---------------- */
+/* --------------------------------------------- */
 .hauteur {
     height: 800px;
 }
 
 
-/* PAGE LOISIRS */
+/* ---------------- PAGE LOISIRS ---------------- */
+/* ---------------------------------------------- */
 ol#loisirs {
     font-size: 1.5rem;
 }
