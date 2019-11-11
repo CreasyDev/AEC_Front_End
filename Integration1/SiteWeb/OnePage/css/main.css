@@ -3,8 +3,32 @@
 /* ------- General ------- */
 /* ----------------------- */
 
-.active {
-    font-weight: bold;
+h1.title{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#etudes, #sports {
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #333;
+}
+
+.hauteur {
+    height: 700px
 }
 
 table {
@@ -17,38 +41,34 @@ table, th, td {
     padding: 10px;
 }
 
-.buttons a.button:nth-child(2) {
-    background-color: darkred;
-    color: #fff;
-}
-
 a.button {
     padding: 10px;
     background-color: #008544;
     color: #fff;
     text-decoration: none;
+    float: right;
 }
 
 
-/* ---------------- PAGE INDEX ---------------- */
+/* ------------------- HOME ------------------- */
 /* -------------------------------------------- */
 
-.mainHeading {
-    width: 600px;
-    margin: 0 auto;
+#home {
+    width: 100%;
+    text-align: center;
 }
 
 a#myPhoto img {
     width: 500px;
     border-radius: 100%;
+    text-align: center;
 }
 
-a#myPhoto, h1 {
-    width: 600px;
-    text-align: center;
+#home h1 {
+    font-size: 2.3rem;
     font-style:italic;
-    display: block;
 }
+
 
 /* ----- navigation ----- */
 /* ---------------------- */
@@ -59,7 +79,7 @@ a#myPhoto, h1 {
 }
 
 #mainNav ul li a {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-decoration: none;
     color: #000;
 }
@@ -80,13 +100,15 @@ table#tableau1 {
 
 /* ---------------- PAGE ÉTUDES ---------------- */
 /* --------------------------------------------- */
-.hauteur {
-    height: 800px;
+
+.container img {
+    width: 400px;
+    margin-left: 20px;
 }
 
 
-/* ---------------- PAGE LOISIRS ---------------- */
-/* ---------------------------------------------- */
+/* ------------------ LOISIRS ------------------ */
+/* --------------------------------------------- */
 ol#loisirs {
     font-size: 1.5rem;
 }
