@@ -128,7 +128,7 @@ a#myPhoto, h1 {
 }
 
 #mainNav ul li a:visited {
-     color: #112a6f;
+     color: yellow;
 }
 
 #mainNav ul li:not(:last-child) {
