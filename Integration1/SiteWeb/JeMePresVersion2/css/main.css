@@ -1,21 +1,75 @@
-/* MAIN STYLE CSS */
+ /* TestCSS.css
+ Programmé par Franck Gallard
+ le 21 Novembre 2019 */
 
 /* ------- General ------- */
 /* ----------------------- */
+body {
+     width: 900px;
+     margin: auto;
+     background: url('../img/bg-img.jpg') no-repeat center;
+     background-size: cover;
+}
 
-.active {
-    font-weight: bold;
+h1, h2 {
+    text-align:center;
+    color: crimson;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+a {
+    color: #6584da;
+    text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+
+}
+
+a:visited {
+    color: #112a6f;
+}
+
+#etudes, #loisirs, #sports {
+     color: indigo;
+     font-size: 20px;
+}
+
+img {
+     width: 300px;
+     border-radius: 20px;
+}
+
+img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 table {
     border-collapse: collapse;
+    color: purple;
     text-align: center;
 }
 
 table, th, td {
-    border: 1px solid #000;
-    padding: 10px;
+     border: 1px solid red;
+     padding: 10px;
 }
+
+/* ------ Plus spécifique ------ */
+/* ----------------------------- */
 
 .buttons a.button:nth-child(2) {
     background-color: darkred;
@@ -64,6 +118,19 @@ a#myPhoto, h1 {
     color: #000;
 }
 
+#mainNav ul li a.active {
+     font-weight: bold;
+     color: green;
+}
+
+#mainNav ul li a:hover {
+     color: green;
+}
+
+#mainNav ul li a:visited {
+     color: #112a6f;
+}
+
 #mainNav ul li:not(:last-child) {
     margin-right: 20px;
 }
@@ -73,8 +140,7 @@ table#tableau1 {
     border-collapse: collapse;
 }
 
-#tableau1 th, td {
-    border: 1px solid #000;
+table#tableau1 th, td {
     padding: 10px;
 }
 
@@ -82,6 +148,10 @@ table#tableau1 {
 /* --------------------------------------------- */
 .hauteur {
     height: 800px;
+}
+
+#etudes li {
+    list-style: none;
 }
 
 
