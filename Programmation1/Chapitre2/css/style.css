@@ -1,0 +1,16 @@
+
+.texteRouge {
+    color: red;
+}
+
+.texteVert {
+    color: green;
+}
+
+.texteMagenta {
+    color: 	#FF00FF;
+}
+
+.texteItalic {
+    font-style: italic;
+}

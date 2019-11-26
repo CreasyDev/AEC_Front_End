@@ -6,9 +6,12 @@ var temperature;
 
 temperature = Number (prompt('Degrés'));
 
-if (temperature > -40 && temperature < -10) {
-    console.log('HAAAAAA ! Il fait froid !')
+if (temperature >= -40 && temperature <= -10) {
+    document.write('HAAAAAA ! Il fait froid !')
+}
+else if (temperature < -40) {
+    document.write('<h1 class="texteRouge">C\'est pas humain !<h1>');
 }
 else {
-   console.log('Enfin une belle journée !');
+    document.write('Enfin une belle journée !');
 }
