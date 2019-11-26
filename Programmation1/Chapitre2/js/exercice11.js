@@ -5,7 +5,7 @@
 // Ajouter 's' et 'd'.
 // Si c'est autre chose, écrire un message d'erreur.
 
-var lettre = true;
+var lettre;
 
 lettre = (prompt('Entrez une lettre'));
 

@@ -11,6 +11,30 @@
     color: 	#FF00FF;
 }
 
+.texteIndigo {
+    color: indigo;
+}
+
+.texteYellow {
+    color: yellow;
+}
+
+.texteWhite {
+    color: #fff;
+}
+
 .texteItalic {
     font-style: italic;
+}
+
+.bgOrange {
+    background-color: orangered;
+}
+
+.bgGreen {
+    background-color: green;
+}
+
+.bgMagenta {
+    background-color: magenta;
 }
