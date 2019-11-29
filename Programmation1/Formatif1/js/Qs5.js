@@ -1,11 +1,9 @@
 
-// QUESTION 5 (4 points)
-//
 // Écrire le code qui permet de lire au clavier la valeur d’un angle d’une main de robot
 // et d’afficher sa position. Pour faire ce choix, utilisez la table  suivante :
-//
-// 		position  à afficher		angle
-//
+
+// 		position à afficher	angle
+
 // 		Main fermée	                 0 <= angle <= 39
 // 		Main agrippe		         40 <= angle <= 89
 // 		Main ouverte		         90 <= angle <= 180

@@ -8,17 +8,19 @@
 // Écrire un algorithme le code qui permet de :
 // Calculer et d’afficher les points de dommages de l’attaque Mad Bull GX à partir des points de vie d’un Pokémon adversaire.
 
+// RÉPONSE:
+
 var points;
 
 points = Number (prompt('Nombre de points adversaire'));
 
-if (points <= 60) {
+if (points < 60) {
     document.write ('Les dommages sont de 100 points');
 }
-else if (points > 60 && points < 79) {
+else if (points >= 60 && points <= 79) {
     document.write ('Les dommages sont de 150 points');
 }
-else if (points > 80 && points < 99) {
+else if (points >= 80 && points <= 99) {
     document.write ('Les dommages sont de 200 points');
 }
 else {

@@ -18,7 +18,6 @@ La matrice coûte 10$ pour les deux yeux.
 Il faut ensuite ajouter 20$ pour le filament 3D.
 Il faut ajouter 15$ pour la batterie USB.
 
-
 RasPiBot aimerait que votre programme affiche
 
 un résumé de l’achat
@@ -27,15 +26,15 @@ le prix
 le prix avec la livraison de 15%.
  */
 
-var controleur = 55;
+
+// RÉPONSE:
+
 var moteur = 5;
-var camera = 35;
-var leds = 10;
 var filaments = 20;
 var batterie = 15;
 var prix = (moteur * 5) + filaments + batterie;
 var prixTotal = prix * 15/100;
 
 console.log ('Robot avec Raspberry Pi Zero, 8 moteurs, 1 filament et une batterie.');
-console.log ('Le prix est '+ prix +'');
-console.log ('Le prix total est ' + prixTotal + '');
+console.log ('Le prix est '+ prix +'$');
+console.log ('Le prix total est ' + (prix + prixTotal) + '$');
