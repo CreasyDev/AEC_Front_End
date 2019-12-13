@@ -20,33 +20,40 @@
 // var b = 5;
 // var c = 0;
 
+/* 1 2 6 */
+
 var a = 2;
 var b = 2;
 var c = 5;
 
+/* 1 2 6 */
+
 var reponse = "";
 
 if(a === b){
-    reponse+= "1 ";
+    reponse+= "1";
     if(b <= (a+c)){
-        reponse+="2 ";
+        reponse+="2";
     }
     else if((a+b) < c){
-        reponse+="3 ";
+        reponse+="3";
     }
     else{
-        reponse+="4 ";
+        reponse+="4";
     }
 }
 else{
-    reponse+="5 ";
+    reponse+="5";
 }
 if(a === b && b === a){
-    reponse+="6 ";
+    reponse+="6";
 }
 else{
-    reponse+="7 ";
+    reponse+="7";
 }
+
+/* Réponse: 1 2 6 */
 alert(reponse);
+
 
 

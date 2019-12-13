@@ -25,21 +25,23 @@
 // 1/ La variable attaque est une string: sa valeur doit-être entre guillemets
 // 2/ Il doit y avoir un else if et non 2 elses, la condition 2 ne doit pas avoir de (;)
 // 3/ La valeur de la variable attaque est inversé
-// 4/ Pour faire un print la variable attaque doit-être dans un document.write(attaque)
 
-// Correction:
+
+
+// CORRECTION:
+// -------------------- //
 
 var nom = "Pikachu";
 var attaque = "Queue de fer";
 
-if (nom !== "Pikachu") {
-    alert("Dracaufeu est l’évolution de Reptincelle")
+if (nom === "Dracaufeu") {
+    alert("Dracaufeu est l’évolution de Reptincelle");
 }
-else if (nom === "Pikachu"){
+else if (nom === "Pikachu") {
     console.log("Pikachu évolue en Raichu");
 }
 else {
-    document.write (attaque);
+    attaque = "Queue de fer";
 }
 
 

@@ -10,19 +10,44 @@
 
 // RÉPONSE:
 
-var points;
+// var points;
+//
+// points = Number (prompt('Nombre de points adversaire'));
+//
+// if (points < 60) {
+//     document.write ('Les dommages sont de 100 points');
+// }
+// else if (points >= 60 && points <= 79) {
+//     document.write ('Les dommages sont de 150 points');
+// }
+// else if (points >= 80 && points <= 99) {
+//     document.write ('Les dommages sont de 200 points');
+// }
+// else {
+//     document.write ('Les dommages sont de 250 points');
+// }
 
-points = Number (prompt('Nombre de points adversaire'));
 
-if (points < 60) {
-    document.write ('Les dommages sont de 100 points');
+// CORRECTION:
+// -------------------- //
+
+var pointsDommagesMadBullGX = 0;
+var pointsVieAdversaire = 0;
+
+pointsVieAdversaire = Number(prompt("Entrez le nombre de points de vie de l'adversaire"));
+
+if(pointsVieAdversaire < 60){
+    pointsDommagesMadBullGX = 100;
 }
-else if (points >= 60 && points <= 79) {
-    document.write ('Les dommages sont de 150 points');
+else if(pointsVieAdversaire >= 60 && pointsVieAdversaire <= 79){
+    pointsDommagesMadBullGX = 150;
 }
-else if (points >= 80 && points <= 99) {
-    document.write ('Les dommages sont de 200 points');
+else if(pointsVieAdversaire >= 80 && pointsVieAdversaire <= 99){
+    pointsDommagesMadBullGX = 200;
 }
-else {
-    document.write ('Les dommages sont de 250 points');
+else if(pointsVieAdversaire >= 100){
+    pointsDommagesMadBullGX = 250;
 }
+
+document.write("L'attaque Mad Bull GX fait " + pointsDommagesMadBullGX + " dommages à l'adversaire");
+

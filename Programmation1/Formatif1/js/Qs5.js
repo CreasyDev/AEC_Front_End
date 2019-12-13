@@ -10,19 +10,23 @@
 //
 // Si l’angle ne contient aucune de ces valeurs, alors affichez ″Le robot est hors de contrôle″.
 
+var position = '';
 var angle;
 
 angle = Number (prompt('Angle de la main du robot'));
 
 if (angle >= 0 && angle <= 39 ) {
-    document.write ('La main du robot est fermée');
+    // document.write ('La main du robot est fermée');
+    position = 'La main du robot est: FERMÉE';
 }
 else if (angle >= 40 && angle <= 89) {
-    document.write ('La main du robot agrippe');
+    position = 'La main du robot: AGRIPPE';
 }
 else if (angle >= 90 && angle <= 180) {
-    document.write ('La main du robot est ouverte');
+    position = 'La main du robot est: OUVERTE';
 }
 else {
-    document.write ('Le robot est hors de contrôle !');
+    position = 'LE ROBOT EST HORS DE CONTRÔLE !';
 }
+
+document.write (position);

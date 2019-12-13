@@ -32,11 +32,8 @@
 // }
 
 
-// CORRECTION DE L'EXERCICE 14
-
-/**
- * Created by Shany on 2019-11-28.
- */
+// CORRECTION:
+// ---------------------- //
 
 var A, B, C;
 A = Number(prompt("Entrez le nombre A"));
