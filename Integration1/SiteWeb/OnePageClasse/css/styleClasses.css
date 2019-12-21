@@ -1,0 +1,30 @@
+/* MAIN STYLE CSS */
+
+/* General */
+
+.belleImage {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#home {
+    background-color: #008544;
+}
+
+#etudes {
+    background-color: rebeccapurple;
+}
+
+#loisirs {
+    background-color: #112a6f;
+}
+
+#sports {
+    background-color: coral;
+}
+
+
+
+
+
+
