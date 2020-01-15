@@ -26,17 +26,16 @@ h1 {
 
 /* ----- MENU ----- */
 
-h4 {
-    color: #fff;
+a h4 {
     font-size: 2rem;
-    text-decoration: underline;
+    text-decoration: underline white;
 }
 
 a:hover h4 {
     color: #fff;
 }
 
-.classTitle {
+h2, h3, h4 {
     color: #fff;
     text-align: center;
 }
