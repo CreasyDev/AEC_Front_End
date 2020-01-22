@@ -4,7 +4,7 @@
 
 var celcius;
 
-for(var f = -40 ; f <= 40; f += 5){
-    celcius = (5/9) * (f-32);
-    document.write(f + " Fahrenheits = " + celcius.toFixed(2) + " Celcius<br>");
+for(var fahrenheits = -40 ; fahrenheits <= 40; fahrenheits+=5){
+    celcius = (5/9) * (fahrenheits - 32);
+    document.write(fahrenheits + " Fahrenheits = " + celcius.toFixed(2) + " Celcius<br>");
 }

@@ -4,6 +4,6 @@
 var montant;
 
 for (var i = 5; i <= 100; i+=5) {
-        montant = i * 1.09;
+        montant = i + (i * 0.09);
     document.write (montant + ' $<br>');
 }

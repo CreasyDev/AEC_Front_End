@@ -1,16 +1,12 @@
 
-/* Transférer les valeurs Fahrenheit de 10 à 20 en Celsius par tranche de 1 */
+/* Transférer les valeurs celcius de 10 à 20 en fareinheit par tranche de 1
+(c * (9/5)) + 32; */
 
-// var celcius;
-//
-// for(var f = 10 ; f <= 20; f += 1){
-//     celcius = (5/9) * (f-32);
-//     document.write(f + " Fahrenheits = " + celcius.toFixed(2) + " Celcius<br>");
-// }
+var fareinheits;
 
-var fahrenheits;
-
-for(var c = 10; c <= 20; c++){
-    fahrenheits = (c * (9/5)) + 32;
-    document.write(c + " Celcius = " + fahrenheits.toFixed(2) + " Fahrenheits<br>");
+for (var celcius = 10; celcius <= 20; celcius++) {
+    fareinheits = (celcius * (9/5)) + 32;
+    document.write (celcius + ' celcius = ' + fareinheits.toFixed(2) + ' fareinheits <br>');
 }
+
+
