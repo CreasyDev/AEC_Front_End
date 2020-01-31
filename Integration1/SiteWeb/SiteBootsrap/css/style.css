@@ -1,0 +1,53 @@
+/* MAIN STYLE CSS / EXERCICE SITE BOOTSRAP */
+
+body { margin: 0; padding: 0; }
+
+/* ---------- GENERAL ---------- */
+/* ----------------------------- */
+
+.bgColorBasis { background-color: #f05f40; }
+.textColorBasis { color: #f05f40; }
+.paddingSection { padding: 8rem 0; }
+.textColorIvory { color: #ffffffbf; }
+h3 { font-size: 1.5rem; }
+hr { margin-bottom: 30px; margin-top: 30px; max-width: 50px; border-width: 3px; border-color: #f05f40; }
+.btn-xl { background-color: #f05f40; color: #fff; border-radius: 10rem; padding: 1.25rem 2.25rem; }
+
+
+/* ----------- HEADER ----------- */
+/* ------------------------------ */
+
+.header { background-image: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%), url(../img/bg-header.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 { font-size: 3.65rem; }
+h2 { font-size: 2rem; }
+p { font-size: 1.15rem; }
+
+/* ------- Media Queries Header ------- */
+
+@media(max-width: 768px) { h1 { font-size: 2.10rem; } }
+
+
+/* ------------ ABOUT ------------ */
+/* ------------------------------- */
+
+#about { background-color: #f05f40; }
+#about hr { border-color: #fff; }
+.btn-white { background-color: #f8f9fa; color: #212529; }
+
+
+/* ------------ SERVICES ------------ */
+/* ---------------------------------- */
+
+/* -------- Font awesome icons -------- */
+
+#services .far, .fas { font-size: 4rem; }
+
+
+
+
+
+
