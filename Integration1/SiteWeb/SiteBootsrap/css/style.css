@@ -6,12 +6,15 @@ body { margin: 0; padding: 0; }
 /* ----------------------------- */
 
 .bgColorBasis { background-color: #f05f40; }
+.bgColorCream { background-color: #f8f9fa; }
 .textColorBasis { color: #f05f40; }
-.paddingSection { padding: 8rem 0; }
+.txtColorBtn2 { color: #212529; }
+.paddingSection { padding: 8rem 0 }
+.paddingBtn { padding: 1.25rem 2.25rem; }
 .textColorIvory { color: #ffffffbf; }
 h3 { font-size: 1.5rem; }
 hr { margin-bottom: 30px; margin-top: 30px; max-width: 50px; border-width: 3px; border-color: #f05f40; }
-.btn-xl { background-color: #f05f40; color: #fff; border-radius: 10rem; padding: 1.25rem 2.25rem; }
+.hr-about { border-color: #fff; }
 
 
 /* ----------- HEADER ----------- */
@@ -29,14 +32,6 @@ p { font-size: 1.15rem; }
 /* ------- Media Queries Header ------- */
 
 @media(max-width: 768px) { h1 { font-size: 2.10rem; } }
-
-
-/* ------------ ABOUT ------------ */
-/* ------------------------------- */
-
-#about { background-color: #f05f40; }
-#about hr { border-color: #fff; }
-.btn-white { background-color: #f8f9fa; color: #212529; }
 
 
 /* ------------ SERVICES ------------ */
