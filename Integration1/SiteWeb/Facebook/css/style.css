@@ -1,5 +1,22 @@
 
+/* MAIN STYLE CSS / EXERCICE SITE FACEBOOK */
 
-body { margin: 0; padding: 0; }
+body {
+    margin: 0; padding: 0;
+}
 
-#container .card { width: 18rem; }
+.text-p {
+    font-size: 100%;
+}
+
+.card {
+    background-color: #00000008;
+}
+
+.fb {
+    height: 2.5rem;
+}
+
+.pt {
+    padding-top: 2rem;
+}
