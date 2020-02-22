@@ -10,39 +10,59 @@
 
     <body class="d-flex justify-content-center align-items-center  pt-5">
 
-    <!-- Bouton qui ouvre le modal (nous verrons d’autres façons de l’ouvrir avec Javascript) -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Ouvrir le modal
-    </button>
 
-    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="jumbotron p-5 pb-0">
-                    <img class="img-fluid img-thumbnail" src="img/Apple_iPhone6_Reuters.jpg" alt="">
-                    <div class="caption">
-                        <h4 class="pull-right pt-3">$700.99</h4>
-                        <h4><a href="#">Mobile Product</a></h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <div class="btn-ground text-center">
-                            <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-                        </div>
-                    </div>
-<!--                    <h1 class="display-4">Démarrez votre journée avec Café Boost !</h1>-->
-
-                    <hr class="my-4">
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                    <p class="lead text-center">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                    </p>
-                    <button type="button" class="close mt-3" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+    <div class="MonBgVideo">
+        <div class="overlay"></div>
+<!--        <video class="h-100 embed-responsive embed-responsive-21by9" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">-->
+<!--            <iframe class="embed-responsive-item" src="https://www.https://www.youtube.com/watch?v=n0F6hSpxaFc" allowfullscreen></iframe>-->
+<!--        </video>-->
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=n0F6hSpxaFc" allowfullscreen></iframe>
+        </video>
+        <div class="container caption text-white h-100" >
+            <div class="row h-100" >
+                <div class="col-12 text-center" >
+                    <h1 class="display-3">Video Header</h1>
+                    <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+                    <!-- Bouton qui ouvre le modal (nous verrons d’autres façons de l’ouvrir avec Javascript) -->
+                    <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#exampleModal">
+                        Ouvrir le modal
                     </button>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+        <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="jumbotron p-5 pb-0 mb-0">
+                        <img class="img-fluid img-thumbnail" src="img/Apple_iPhone6_Reuters.jpg" alt="">
+                        <div class="caption">
+                            <h4 class="pull-right pt-3">$700.99</h4>
+                            <h4><a href="#">Mobile Product</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <div class="btn-ground text-center">
+                                <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
+                            </div>
+                        </div>
+    <!--                    <h1 class="display-4">Démarrez votre journée avec Café Boost !</h1>-->
+
+                        <hr class="my-4">
+                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                        <p class="lead text-center">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                        </p>
+                        <button type="button" class="close mt-3" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
