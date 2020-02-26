@@ -1,0 +1,91 @@
+html,body { margin:0; height:100%;}
+
+.parallax1 {
+    /* L’image du Parallax */
+    background-image: url('../img/img1.jpg');
+    /* La hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../img/img2.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* L’image du Parallax */
+    background-image: url("../img/img3.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* L’image du Parallax */
+    background-image: url("../img/img4.jpg");
+    /* L’hauteur du Parallax */
+    height: 100%;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ---------------------------------------------------- */
+
+
+/*.bg {*/
+/*    background-size: cover;*/
+/*}*/
+/*.bg::after {*/
+/*    content: "";*/
+/*    background-image: url("../img/img1.jpg");*/
+/*    background-size: cover;*/
+/*    opacity: 0.5;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    position: absolute;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.bg2 {*/
+/*    background-size: cover;*/
+/*}*/
+/*.bg2::after {*/
+/*    content: "";*/
+/*    background-image: url("../img/img2.jpg");*/
+/*    background-size: cover;*/
+/*    opacity: 0.5;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    position: absolute;*/
+/*    z-index: 1;*/
+/*}*/
+
+
+
+
