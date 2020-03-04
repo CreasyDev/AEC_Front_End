@@ -1,0 +1,174 @@
+/* MAIN STYLE CSS / EXERCICE PARALLAX */
+
+html, body {
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.07rem;
+  color: #2c2c2c;
+  line-height: 1.4em;
+}
+
+@font-face {
+    font-family: 'Khand';
+    src: url('../font/Khand-Regular.ttf');
+    src: url('../font/Khand-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../font/Ubuntu-Regular.ttf');
+}
+
+
+/* ---------------- GENERAL ---------------- */
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.heightSection {
+    height: 600px;
+}
+
+.font {
+    font-family: 'Khand', sans-serif;
+    font-size: 2.5rem;
+}
+
+.fontSize {
+    font-size: 4.175rem;
+}
+
+.fontSize1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.fontSize2 {
+    font-size: 4.175rem;
+    line-height: 4.175rem;
+}
+
+.pBgJaune {
+    padding: 0.625rem 0 0;
+}
+
+.pBgGris {
+    padding: 2.5rem 2rem 1.3rem;
+}
+
+.pSection {
+    padding: 6rem 0.938rem;
+}
+
+.mt-side {
+    margin-top: -21rem;
+}
+
+.mt {
+    margin-top: 22%;
+}
+
+.p {
+    padding: 1rem;
+}
+
+.mr {
+    margin-right: 11%;
+}
+
+.fas {
+    color: #e84819;
+}
+
+.fontFas3 {
+    font-size: 1.3rem;
+}
+
+
+/* --------------- ZONE 1 --------------- */
+
+.parallax1 {
+    background-image: url('../img/img1.jpg');
+}
+
+.bgJaune{
+    background-color: rgba(189, 182, 0, 0.71);
+}
+
+.bgGris{
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* --------------- ZONE 2 --------------- */
+
+.Button {
+    background-color: #e84819;
+    border-color: #e84819;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.08rem;
+    padding: 0.7rem 1.2rem;
+}
+
+
+/* --------------- ZONE 3 --------------- */
+
+.parallax2 {
+    background-image: url('../img/img3.jpg');
+}
+
+
+/* --------------- ZONE 4 --------------- */
+
+.parallax3 {
+    background-image: url('../img/img4.jpg');
+}
+
+
+/* --------------- ZONE 5 --------------- */
+
+.bgColor1 {
+    background-color: #33b573;
+}
+
+.bgColor2 {
+    background-color: #c9bc85;
+}
+
+.bgColor3 {
+    background-color: #1ea1bd;
+}
+
+
+
+/* --------------- MEDIA QUERIES ---------------- */
+
+@media screen and (max-device-width: 480px) {
+
+    /* ------------ Zone 1 ------------ */
+    .parallax1 { background-image: url('../img/imgResponsive.jpg'); }
+    .mt { margin-top: 7%; }
+    .fontSize1 { font-size: 1.875rem; line-height: 1.875rem; }
+    .parallax1 h2 { font-size: 270%; line-height: 3rem; letter-spacing: -0.01em; }
+    .fontSize { line-height: 2rem; }
+
+
+    /* ------------ Zone 2 ------------ */
+    .fontSize2 { font-size: 2.125rem; line-height: 2.125rem; }
+    .fontSize3 { font-size: 1.5rem; }
+    .mt-side { margin-top: 2rem; }
+
+
+    /* ------------ Zone 5 ------------ */
+    .fontSize3 { font-size: 1.875rem; line-height: 1.9rem; }
+}
+
+
