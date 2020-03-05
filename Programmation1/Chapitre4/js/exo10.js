@@ -12,7 +12,6 @@ Mettre ces options dans un tableau, puis demander à un étudiant d’entrer un 
 Vous lui répondez si OUI ou NON le collège offre cette option. */
 
 
-
 var tabOptions = ['INFORMATIQUE', 'ADMINISTRATION', 'HISTOIRE', 'GÉNIE', 'GEOGRAPHE', 'BUREAUTIQUE'];
 var choix;
 var trouver = false;
