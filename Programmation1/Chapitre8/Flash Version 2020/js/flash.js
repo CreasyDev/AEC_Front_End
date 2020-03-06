@@ -1,9 +1,6 @@
 
 
 
-$(document).ready(function(){
-
-
 $('#boutonGauche').click(function(){
     $('#flashID').css('left', '300px');
 });
@@ -45,29 +42,21 @@ $('#boutonTeleport').click(function(){
 });
 
 
-// $('#boutonVitesseSupreme').click(function(){
-//     if ($("#flashID").fadeToggle()) {
-//         setInterval(function(){
-//             $("#flashID").fadeToggle();
-//         }, 500);
-//     }
-//
-//     else if ($("#flashID").fadeToggle()) {
-//         clearInterval(function(){
-//             $("#flashID").fadeToggle();
-//         }, 500);
-//     }
-// });
 
+let monTimer;
+let vitesseSupreme = false;
 
-$('#boutonVitesseSupreme').click(function() {
-    let interval = setInterval(function(){
-        $("#flashID").fadeToggle();
-    }, 500);
+$( "#boutonVitesseSupreme" ).click(function() {
+    if(!vitesseSupreme){
+        monTimer  = setInterval(function(){$("#flashID").toggle()}, 500);
+        vitesseSupreme = true;
+    }
+});
 
-    $('#boutonFinVitesseSupreme').click(function() {
-        clearInterval(interval);
-    });
+$( "#boutonFinVitesseSupreme" ).click(function() {
+    clearInterval(monTimer);
+    vitesseSupreme = false;
+    $("#flashID").show();
 });
 
 
@@ -109,7 +98,7 @@ $('#boutonVitesseSupreme').click(function() {
         }, 3000);
     });
 
-});
+
 
 
 
