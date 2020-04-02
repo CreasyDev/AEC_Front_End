@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire 1</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+    <body>
+
+        <form class="mt-md-5" action="FormulaireEnvoye.html">
+            <div class="container">
+                <div class="form-group">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationDefault01">Prénom</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Votre prénom" required>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="validationDefault01">Nom</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="Last name" value="Votre nom" required>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label class="mr-2" for="inlineFormCustomSelectPref">Preference</label>
+                        <select class="custom-select mr-sm-2 mb-md-3" id="inlineFormCustomSelectPref">
+                            <option selected>Choisissez...</option>
+                            <option value="1">HTML</option>
+                            <option value="2">CSS</option>
+                            <option value="3">Bootstrap</option>
+                        </select>
+                        <input class="btn btn-primary" type="reset" value="Reset">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-4 my-3 mb-3">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio1" name="customRadio1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio1">Urgent</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio2" name="customRadio2" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio2">Important</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="customRadio3" name="customRadio3" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadio3">Peut attendre</label>
+                        </div>
+                        <button class="btn btn-primary mt-md-3" type="submit">Envoyer</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!-- Script -->
+        <!-- ====== -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+        <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+    </body>
+</html>

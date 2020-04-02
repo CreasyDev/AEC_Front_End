@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!-- Projet final -->
+<!-- Par Franck Gallard -->
+<!-- Dernière mise à jour: 20 Mars 2020  -->
+<html lang="fr-ca">
+<head>
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="css/MediaQueries.css">
+</head>
+
+<body>
+
+
+
+<!-- SECTION CONTACT -->
+<!-- =============== -->
+        <section id="contact" class="parallax parallax3 pSection pySectionResponsive px-0">
+            <div class="container">
+                <div class="headerTitle text-center text-white pb-xl-4 pb-lg-4">
+                    <h2 class="h2Font">Contactez-Nous</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Delectus dignissimos incidunt magni nulla quasi quo.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <form>
+                            <div class="card-body p-3">
+                                <div class="form-row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bgMauve border-0"><i class="fa fa-user text-white"></i></div>
+                                                </div>
+                                                <input type="text" class="form-control bg-input" id="prenom" name="nom" placeholder="Votre Prenom" required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bgMauve border-0"><i class="fa fa-user text-white"></i></div>
+                                                </div>
+                                                <input type="text" class="form-control bg-input" id="nom" name="nom" placeholder="Votre nom" required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bgMauve border-0"><i class="fa fa-envelope text-white"></i></div>
+                                                </div>
+                                                <input type="email" class="form-control bg-input" id="email" name="email" placeholder="Votre courriel" required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bgMauve border-0"><i class="fa fa-phone text-white"></i></div>
+                                                </div>
+                                                <input type="tel" class="form-control bg-input" id="telephone" name="telephone" placeholder="Votre telephone" required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bgMauve border-0"><i class="fa fa-comment text-white"></i></div>
+                                                </div>
+                                                <textarea class="form-control bg-input" placeholder="Votre message" required></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <button id="send" type="submit" class="btn btn-outline-light btn-lg borderRadius px-5"><i class="fas fa-paper-plane iconBtn text-white"></i> Envoyer</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row px-3">
+                    <iframe class="col-xl-12 col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d357585.076521621!
+                 2d-74.01048414282262!3d45.557699585064015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!
+                 2zTW9udHLDqWFsLCBRQw!5e0!3m2!1sfr!2sca!4v1584472730188!5m2!1sfr!2sca" height="280" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+            </div>
+        </section>
+
+
+<style>
+    /* ----- XS ----- */
+    @media (max-width: 575px) {
+
+        #contact .googleMap  {
+            padding: 0 0.9rem;
+        }
+
+
+    }
+
+</style>
+
+<!-- FOOTER -->
+<!-- ====== -->
+<footer class="bgFooter pt-5">
+    <div class="container text-white py-5">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 pb">
+                <h6 class="fontH6 fontPrata text-uppercase pb-2">Nos Coordonnées</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-1"><i class="fas fa-phone starsIconse"></i><span class="fontCoordonnees ml-1"> (514) 856 4723</span></li>
+                    <li class="mb-1"><i class="fas fa-map-marker-alt starsIcons"></i><span class="fontCoordonnees ml-1"> 1098 Avenue Atwater H3H 1Y3 Montréal</span></li>
+                    <li class="mb-1"><i class="fas fa-clock starsIcons"></i><span class="fontCoordonnees ml-1"> Lundi - Samedi 8h00 - 18h00</span></li>
+                </ul>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 pb">
+                <h6 class="fontH6 fontPrata text-uppercase pb-2">À propos du centre</h6>
+                <!-- Menu navigation-->
+                <ul class="list-unstyled">
+                    <li class="mb-1 active"><a class="colorBlue py-1" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+                    <li class="mb-1"><a class="colorBlue py-1" href="about.html">À Propos</a></li>
+                    <li class="mb-1"><a class="colorBlue py-1" href="bienfaits.html">Les Bienfaits</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 text-uppercase">
+                <h6 class="fontH6 font-family text-uppercase pb-2">Infolettre</h6>
+                <form id="newsLetter">
+                    <div class="input-group mb-4">
+                        <input type="text" class="form-control" placeholder="Entrez votre courriel" aria-label="Recipient's username" aria-describedby="newsLetter">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary bgMauve text-white text-uppercase fontPoppins" type="button"><i class="fas fa-paper-plane text-white"></i></button>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Icones Medias Sociaux -->
+                <ul class="list-unstyled d-flex">
+                    <li class="list d-flex justify-content-center align-items-center pt-1 mr-2">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f socialIcons text-white"></i></a>
+                    </li>
+                    <li class="list d-flex justify-content-center align-items-center pt-1 mr-2">
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter socialIcons text-white"></i></a>
+                    </li>
+                    <li class="list d-flex justify-content-center align-items-center pt-1 mr-2">
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in socialIcons text-white"></i></a>
+                    </li>
+                    <li class="list d-flex justify-content-center align-items-center pt-1 mr-2">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram socialIcons text-white"></i></a>
+                    </li>
+                    <li class="list d-flex justify-content-center align-items-center pt-1">
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube socialIcons text-white"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barre Copyright -->
+    <div class="container-fluid text-center bgBottomFooter colorGrey py-4">
+        <div class="row">
+            <div class="col-xl-12">
+                <span>Copyright © 2020 Kundalini. Tous droits réservés. Mentions légales | Termes & Conditions</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Script -->
+<!-- ====== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
