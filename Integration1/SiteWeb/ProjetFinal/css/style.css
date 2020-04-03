@@ -203,7 +203,7 @@ a.cursor {
 /* Section Bannière 1 ---------------- */
 
 .parallax1 {
-    background-image: url('../img/bg-Accueil.jpg');
+    background-image: url('../img/bg-Accueil-min.jpg');
     height: 100%;
     padding: 12%;
 }
@@ -269,7 +269,7 @@ p {
 /* Section Rabais --------------------- */
 
 .parallax2 {
-    background-image: url('../img/rabaisBg.jpg');
+    background-image: url('../img/rabaisBg-min.jpg');
 }
 
 
@@ -291,7 +291,7 @@ p {
 /* Section Contact -------------------- */
 
 .parallax3 {
-    background-image: url('../img/bg-contact.jpg');
+    background-image: url('../img/bg-contact-min.jpg');
 }
 
 .fontSubTitle {
@@ -311,6 +311,7 @@ p {
     background: rgba(255, 255, 255, 0.3);
     border: 0;
 }
+
 
 #contact .form-control::-webkit-input-placeholder {
     color: #fff;
@@ -348,7 +349,7 @@ p {
 /* Section À Propos -------------------- */
 
 #about {
-    background-image: url('../img/propos.jpg');
+    background-image: url('../img/propos-min.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -393,7 +394,7 @@ p {
 /* Section Nous ------------------------- */
 
 .parallax4 {
-    background-image: url('../img/bgNous.jpg');
+    background-image: url('../img/bgNous-min.jpg');
 }
 
 #Nous .fas {
@@ -449,14 +450,14 @@ p {
 /* Section Discount --------------------- */
 
 .parallax6 {
-    background-image: url('../img/bg-discount.jpg');
+    background-image: url('../img/bg-discount-min.jpg');
     background-position-y: top;
     -ms-background-position-y: top;
     height: 43%;
 }
 
 .bg-image {
-    background-image: url('../img/imgBienfaits.jpg');
+    background-image: url('../img/imgBienfaits-min.jpg');
     background-size: cover;
     left: 1rem;
     bottom: -14.1rem;
@@ -478,7 +479,7 @@ p {
 /* Section Modules ------------------------ */
 
 #Modules {
-    background-image: url('../img/yogaModules.jpg');
+    background-image: url('../img/yogaModules-min.jpg');
     background-position-y: top;
     -ms-background-position-y: top;
 }
@@ -586,6 +587,8 @@ footer .fas {
 .pb {
     padding-bottom: 1.3rem;
 }
+
+
 
 
 
