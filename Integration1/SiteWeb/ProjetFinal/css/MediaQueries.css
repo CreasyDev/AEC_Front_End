@@ -1,4 +1,4 @@
-/* MEDIA QUERIES / STYLE CSS / PROJET FINAL / Par Franck Gallard le 13 Février 2020 */
+/* MEDIA QUERIES / STYLE CSS / PROJET FINAL / Par Franck Gallard. Dernière mise à jour le 4 Avril 2020 */
 
 
 /**************** GENERAL *****************/
@@ -60,8 +60,8 @@
 
     /* Section Bannière 1 ------------ */
 
-    .parallax1 {
-        background-image: url('../img/imgBgSm.jpg');
+    #home {
+        background-image: url('../img/imgBgSm-min.jpg');
         padding: 12%;
     }
 
@@ -139,8 +139,8 @@
 
     /* Section Bannière 1 ------------ */
 
-    .parallax1 {
-        background-image: url('../img/imgBgMd2.jpg');
+    #home {
+        background-image: url('../img/imgBgMd2-min.jpg');
         background-position: 65%;
         height: 50%;
     }
@@ -225,14 +225,6 @@
 /* ----- XS ----- */
 @media (max-width: 575px) {
 
-    /* navigation ------------ */
-
-    /*#navBienfaits {*/
-    /*    width: 100%;*/
-    /*    position: fixed;*/
-    /*    top: 0;*/
-    /*}*/
-
     /* Bannière Carousel ------------ */
 
     #slides .carousel-inner {
@@ -272,12 +264,6 @@
 
     /* Section Bienfaits ------------ */
 
-    .parallax5 {
-        background-image: url('../img/imgHistoire2.jpg');
-        background-position: 20%;
-        height: 100%;
-    }
-
     .banniere .container {
         padding: 0 3rem;
     }
@@ -313,18 +299,20 @@
 
     /* section Discount ------------ */
 
+    #discount {
+        height: 76%;
+    }
+
     #discount .container {
         padding: 0 0.8rem;
     }
 
-    #discount .position-absolute {
-        padding: 2rem;
-        left: 0;
-        bottom: -20.3rem;
-    }
-
     #discount fieldset {
         padding: 2rem;
+    }
+
+    #discount fieldset h3 {
+        font-size: 1.70rem;
     }
 
     #discount .blocDiscount {
@@ -335,7 +323,16 @@
         font-size: 1.7rem;
     }
 
+
     /* section Modules ------------ */
+
+    #Modules {
+        padding-top: 2.3rem;
+    }
+
+    #Modules .module {
+        padding-top: 1rem;
+    }
 
     #Modules .card {
         font-size: 1.153rem;
@@ -347,14 +344,6 @@
 
     .h6 {
         font-size: 1.153rem;
-    }
-
-    #Modules .container {
-        margin-top: 13.5rem;
-    }
-
-    .parallax6 {
-        height: 32%;
     }
 
     #Modules .section-header {
@@ -380,14 +369,6 @@
 
 /* ----- MD ----- */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
-    /* navigation ------------ */
-
-    /*#navBienfaits {*/
-    /*    width: 100%;*/
-    /*    position: fixed;*/
-    /*    top: 0;*/
-    /*}*/
 
     /* Bannière Carousel ------------ */
 
@@ -421,16 +402,12 @@
 
     }
 
-    .parallax5 {
-        background-image: url('../img/imgHistoire2.jpg');
-        background-position: 20%;
-        height: 60%;
-    }
 
     /* section Discount ------------ */
 
-    .parallax6 {
-        height: 32%;
+    #discount {
+        height: 42%;
+        padding: 1.2rem 0;
     }
 
     #discount .container {
@@ -439,8 +416,6 @@
 
     #discount .position-absolute {
         padding: 2rem;
-        left: 0;
-        bottom: -13rem;
     }
 
     /* section Modules ------------ */

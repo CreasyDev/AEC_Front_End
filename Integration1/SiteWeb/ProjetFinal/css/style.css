@@ -1,4 +1,4 @@
-/* MAIN STYLE CSS / PROJET FINAL / Par Franck Gallard le 13 Février 2020 */
+/* MAIN STYLE CSS / PROJET FINAL / Par Franck Gallard. Dernière mise à jour le 4 Avril 2020 */
 
 html, body {
     height: 100%;
@@ -126,12 +126,13 @@ a.cursor {
     border-radius: 0;
 }
 
+/* Parallax ---------------------- */
+
 .parallax {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 .fontNav {
@@ -202,7 +203,7 @@ a.cursor {
 
 /* Section Bannière 1 ---------------- */
 
-.parallax1 {
+#home {
     background-image: url('../img/bg-Accueil-min.jpg');
     height: 100%;
     padding: 12%;
@@ -268,7 +269,7 @@ p {
 
 /* Section Rabais --------------------- */
 
-.parallax2 {
+#rabais {
     background-image: url('../img/rabaisBg-min.jpg');
 }
 
@@ -290,7 +291,7 @@ p {
 
 /* Section Contact -------------------- */
 
-.parallax3 {
+#contact {
     background-image: url('../img/bg-contact-min.jpg');
 }
 
@@ -350,8 +351,6 @@ p {
 
 #about {
     background-image: url('../img/propos-min.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
 .overlay1 {
@@ -393,7 +392,7 @@ p {
 
 /* Section Nous ------------------------- */
 
-.parallax4 {
+#Nous {
     background-image: url('../img/bgNous-min.jpg');
 }
 
@@ -449,18 +448,16 @@ p {
 
 /* Section Discount --------------------- */
 
-.parallax6 {
+#discount {
     background-image: url('../img/bg-discount-min.jpg');
     background-position-y: top;
     -ms-background-position-y: top;
-    height: 43%;
+    height: 54%;
 }
 
 .bg-image {
     background-image: url('../img/imgBienfaits-min.jpg');
     background-size: cover;
-    left: 1rem;
-    bottom: -14.1rem;
 }
 
 .borderDiscount {
@@ -468,7 +465,7 @@ p {
 }
 
 .ptDiscount {
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 
 .z-index {
@@ -482,6 +479,10 @@ p {
     background-image: url('../img/yogaModules-min.jpg');
     background-position-y: top;
     -ms-background-position-y: top;
+}
+
+.pModules {
+    padding: 5.2rem 0 4rem;
 }
 
 #Modules .img-fluid {
