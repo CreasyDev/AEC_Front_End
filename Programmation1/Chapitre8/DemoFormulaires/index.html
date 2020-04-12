@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Shawicon</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container" id="idContainer">
+    <div class="row align-items-center text-center">
+        <div class="col-12">
+            <img src="img/logo-shawicon.png" class="img-fluid">
+        </div>
+    </div>
+    <form>
+    <div class="row">
+        <div class="col-12">
+
+                <div class="form-group">
+                    <small id="userHelp" class="form-text"></small>
+                    <input type="text" class="form-control" id="userName" aria-describedby="NomUsager" placeholder="Entrez le nom d'usager">
+                </div>
+                <div class="form-group">
+                    <small id="passHelp" class="form-text"></small>
+                    <input type="password" class="form-control" id="password" aria-describedby="password" placeholder="Entrez le mot de passe">
+                </div>
+                <div class="form-group">
+                    <small id="passHelp2" class="form-text"></small>
+                    <input type="password" class="form-control" id="password2" aria-describedby="password2" placeholder="Confirmez le mot de passe">
+                </div>
+                <div class="form-group">
+                    <small id="emailHelp" class="form-text"></small>
+                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Entrez le courriel">
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radioUnivers" id="inlineRadio1" value="sw">
+                    <label class="form-check-label" for="inlineRadio1">Starwars</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radioUnivers" id="inlineRadio2" value="marvel">
+                    <label class="form-check-label" for="inlineRadio2">Marvel</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radioUnivers" id="inlineRadio3" value="dc">
+                    <label class="form-check-label" for="inlineRadio3">DC</label>
+                </div>
+
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-6">
+                <img src="img/yoda.jpg" class="img-fluid" id="personnage"/>
+            </div>
+            <div class="col-6 selectSW">
+                <div class="form-group">
+                    <label for="swSelect">Choisissez votre personnage de Starwars</label>
+                    <select class="form-control" id="swSelect">
+                        <option>Yoda</option>
+                        <option>Obiwan</option>
+                        <option>Darth Vader</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-6 selectMarvel">
+                <div class="form-group">
+                    <label for="marvelSelect">Choisissez votre personnage de Marvel</label>
+                    <select class="form-control" id="marvelSelect">
+                        <option>Spiderman</option>
+                        <option>Hulk</option>
+                        <option>Ironman</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-6 selectDC">
+                <div class="form-group">
+                    <label for="dcSelect">Choisissez votre personnage de DC</label>
+                    <select class="form-control" id="dcSelect">
+                        <option>Superman</option>
+                        <option>Batman</option>
+                        <option>Flash</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </form>
+    <button class="btn btn-primary" id="boutonEnvoyer">Envoyer</button>
+
+</div>
+
+
+
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/helloJquery.js"></script>
+</body>
+</html>

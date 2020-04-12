@@ -1,0 +1,30 @@
+
+img {
+    width: 400px;
+}
+
+
+#Yoda, #Spider, #batMan {
+    display: none;
+}
+
+#divYoda, #divSpider, #divBatMan {
+    display: none;
+}
+
+#valide {
+    display: none;
+}
+
+#faible {
+    color: red;
+    display: none;
+}
+
+#nonDispo {
+    color: red;
+    display: none;
+}
+
+
+

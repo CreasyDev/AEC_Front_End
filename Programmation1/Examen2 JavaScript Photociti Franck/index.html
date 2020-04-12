@@ -1,0 +1,97 @@
+<!doctype html>
+<!-- Projet final JQuery -->
+<!-- Par Franck Gallard -->
+<!-- Dernière mise à jour: 12 Avril 2020  -->
+<html lang="fr-ca">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projet Final JQuery</title>
+</head>
+
+    <body>
+
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <form id="formulaire" class="form-inline mt-2 mt-md-0">
+                        <div class="col-lg-12 col-md-12">
+                            <h1 class="h3 mb-3 font-weight-normal">Projet Final JQuery</h1>
+                            <!-- boutton -->
+                            <div class="input-group">
+                                <input type="text" class="form-control text-center"  id="inputMot" name="inputMot" placeholder="Entrez votre mot">
+                                <button id="buttonGo" class="input-group-addon btn btn-success ml-1" type="submit"><i class="fa fa-search"></i>GO</button>
+                            </div>
+                            <p class="pt-2">Utilisez * pour les caractères spéciaux.</p>
+                            <div class="mb-3" id="message-erreur"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- CHOIX DE COULEURS -->
+        <!-- ***************** -->
+        <div class="container mb-3" id="choix-couleur-bg">
+            <div class="row">
+                <div class="col-md-12" id="choix">
+                    <h4>Veuillez choisir la couleur de l'arrière-plan.</h4>
+                </div>
+            </div>
+            <!-- Choix de couleurs Background -->
+            <div class="row">
+                <div class="col-md-12" id="choixBg">
+                    <a href="#" couleur="blanc"></a>
+                    <a href="#" couleur="bleu"></a>
+                    <a href="#" couleur="bleuFonce"></a>
+                    <a href="#" couleur="gris"></a>
+                    <a href="#" couleur="noir"></a>
+                    <a href="#" couleur="rose"></a>
+                    <a href="#" couleur="rouge"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- MONTAGE PHOTO -->
+        <!-- ************* -->
+        <div class="container" id="montagePhoto">
+            <div class="row" id="photoLettres">
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 lettre">
+                    <img class="img-fluid" src="images/Letters/H/H1.jpg" alt="">
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 lettre">
+                    <img class="img-fluid" src="images/Letters/U/U1.jpg" alt="">
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 lettre">
+                    <img class="img-fluid" src="images/Letters/B/B1.jpg" alt="">
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 lettre">
+                    <img class="img-fluid" src="images/Letters/E/E1.jpg" alt="">
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 lettre">
+                    <img class="img-fluid" src="images/Letters/R/R1.jpg" alt="">
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 lettre">
+                    <img class="img-fluid" src="images/Letters/T/T1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- MONTAGE RÉSULTAT -->
+        <!-- **************** -->
+        <div class="container" id="resultat">
+            <div class="row" id="lettres"></div>
+        </div>
+
+
+        <!-- Script -->
+        <!-- ****** -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/projetFinal.js"></script>
+
+    </body>
+</html>

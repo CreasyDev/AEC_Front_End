@@ -42,28 +42,71 @@ $('#boutonTeleport').click(function(){
 });
 
 
+// ---------------------------------------------------------- //
 
-let monTimer;
-let vitesseSupreme = false;
-
-$( "#boutonVitesseSupreme" ).click(function() {
-    if(!vitesseSupreme){
-        monTimer  = setInterval(function(){$("#flashID").toggle()}, 500);
-        vitesseSupreme = true;
-    }
-});
-
-$( "#boutonFinVitesseSupreme" ).click(function() {
-    clearInterval(monTimer);
-    vitesseSupreme = false;
-    $("#flashID").show();
-});
-
+// let monTimer;
+// let vitesseSupreme = false;
+//
+// $( "#boutonVitesseSupreme" ).click(function() {
+//
+//     if(!vitesseSupreme){
+//         monTimer  = setInterval(function(){
+//             $("#flashID").toggle()
+//         }, 500);
+//         vitesseSupreme = true;
+//     }
+// });
+//
+//
+// $( "#boutonFinVitesseSupreme" ).click(function() {
+//     clearInterval(monTimer);
+//     vitesseSupreme = false;
+//     $("#flashID").show();
+// });
 
 
 // $('#boutonFinVitesseSupreme').click(function(){
 //     $('#flashID').stop();
 // });
+
+// ---------------------------------------------------- //
+
+    // let Interval;
+    // let compteur = false;
+    //
+    // $('#boutonVitesseSupreme').click(function(){
+    //     if (!compteur) {
+    //         Interval = setInterval(function(){
+    //             $('#flashID').fadeToggle();
+    //             compteur = true;
+    //         }, 500);
+    //     }
+    // });
+    //
+    // $('#boutonFinVitesseSupreme').click(function(){
+    //     clearInterval(Interval);
+    //     compteur = false;
+    //     $('#flashID').show();
+    // });
+
+
+
+    let IntervalImg;
+    let animation = false;
+
+    $('#boutonVitesseSupreme').click(function(){
+       if (!animation) {
+           IntervalImg = setInterval(function(){
+              $('#flashID').fadeToggle();
+           }, 500);
+           animation = true;
+       }
+       else {
+           clearInterval(IntervalImg);
+           animation = false;
+           $('#flashID').show();
+       }
+    });
 
 
     $('#boutonNuke').click(function(){
@@ -75,11 +118,13 @@ $( "#boutonFinVitesseSupreme" ).click(function() {
     });
 
 
+    /* sortir les boutons du parent  caché. Faire Append directement sur le body */
 
     $('#boutonPerso1').click(function(){
         $('.centralCity').css('background-image', 'url(img/centralCity.jpg)').fadeIn('slow');
-        $('.btn, h1, #flashID').fadeIn();
+        $('.btn, h1').append();
     });
+
 
     $('#boutonPerso2').click(function(){
         $('#flashID').animate({

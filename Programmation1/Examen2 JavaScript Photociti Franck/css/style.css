@@ -1,0 +1,57 @@
+/* MAIN STYLE CSS / Projet Final JQuery / Par Franck Gallard / Dernière mise à jour le 12 Avril 2020 */
+
+
+#resultat {
+    display: none;
+}
+
+
+#photoLettres, #lettres {
+    padding: 20px;
+}
+
+#photoLettres {
+    background-image: url('../images/background/noir.jpg');
+}
+
+#lettres {
+    background-image: url('../images/background/blanc.jpg');
+}
+
+.lettre {
+    background: #666;
+    border: 2px solid #fff;
+}
+
+.lettre img {
+    width: 100%;
+}
+
+#choix-couleur-bg {
+    display: none;
+    margin-top: 30px;
+}
+
+#choix-couleur-bg #choixBg a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 8%;
+}
+
+#choix-couleur-bg #choixBg a[couleur=blanc] { background-image:url(../images/background/blanc.jpg); border: 1px solid #a9a9a9; }
+#choix-couleur-bg #choixBg a[couleur=bleu] { background-image:url(../images/background/bleu.jpg); }
+#choix-couleur-bg #choixBg a[couleur=bleuFonce] { background-image:url(../images/background/bleuFonce.jpg); }
+#choix-couleur-bg #choixBg a[couleur=gris] { background-image:url(../images/background/gris.jpg); }
+#choix-couleur-bg #choixBg a[couleur=noir] { background-image:url(../images/background/noir.jpg); }
+#choix-couleur-bg #choixBg a[couleur=rose] { background-image:url(../images/background/rose.jpg); }
+#choix-couleur-bg #choixBg a[couleur=rouge] { background-image:url(../images/background/rouge.jpg); }
+
+/* ------- Impression ------- */
+@media print {
+    .d-none-print {
+        display: none;
+    }
+}
+

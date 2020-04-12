@@ -15,6 +15,18 @@ html,body { margin:0; height:100%;}
 }
 
 #flashID{
-    position:relative;
+    position: relative;
     left:100px;
 }
+
+#boutonPerso1 {
+    left: 40%;
+    top: 10px;
+}
+
+#boutonPerso2 {
+    left: 50%;
+    top: 10px;
+}
+
+
