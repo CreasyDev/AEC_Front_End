@@ -61,7 +61,7 @@
             html = '';
             for (let i = 0; i < mot.length; i++) {
                 let lettre = mot.charAt(i);
-                if ( !lettre.match(/[A-Z]/i) && lettre !== '*' ) {
+                if ( !lettre.match(/[a-z]/i) && lettre !== '*' ) {
                     $('#message-erreur').text('Veuillez entrer seulement des lettres').css({'color': 'red', 'font-weight': 'bold'});
                     $('#resultat, #choix-couleur-bg').css( "display", 'none' );
                     $('#montagePhoto').css({display: 'block'});
@@ -70,7 +70,7 @@
                     html += '<div class="lettre col-sm-' + typeCol + '"><img src="images/Letters/CS/CS1.jpg" /></div>';
                 }
                 else {
-                    html += '<div class="lettre col-sm-' + typeCol + '"><img src="images/Letters/' + mot.charAt(i) + '/' + mot.charAt(i) + '1' + '.jpg" /></div>';
+                    html += '<div class="lettre col-sm-' + typeCol + '"><img src="images/Letters/' + mot.charAt(i).toUpperCase() + '/' + mot.charAt(i).toUpperCase() + '1' + '.jpg" /></div>';
                 }
             }
             console.log('contenu html: ' + html);
