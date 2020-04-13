@@ -60,7 +60,7 @@
         function separationCaracteres(mot) {
             html = '';
             for (let i = 0; i < mot.length; i++) {
-                let lettre = mot.charAt(i).toLowerCase();
+                let lettre = mot.charAt(i).toUpperCase();
                 if ( !lettre.match(/[a-z]/i) && lettre !== '*' ) {
                     $('#message-erreur').text('Veuillez entrer seulement des lettres').css({'color': 'red', 'font-weight': 'bold'});
                     $('#resultat, #choix-couleur-bg').css( "display", 'none' );
