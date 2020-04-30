@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header>
         <Container className="container-fluid text-left px-0 mb-3">
-            <img src={logo} className="img-fluid logo"></img>
+            <img src={logo} className="img-fluid logo" alt="Logo Becflix"></img>
         </Container>
       </header>
       <Container>
