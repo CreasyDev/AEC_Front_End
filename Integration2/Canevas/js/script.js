@@ -75,8 +75,28 @@ window.onload = function(){
     grd.addColorStop(0, "#ea52ff");
     grd.addColorStop(1, "#008544");
     drawTriangle(context, canvas.width / 2, triangleY, triangleWidth, triangleHeight, grd);
-
 };
+
+
+
+// ILLUSTRATION
+canvas = document.getElementById('canvas2');
+ctx = canvas.getContext('2d');
+
+grd = ctx.createLinearGradient(0,0,500,0);
+grd.addColorStop(0, 'blue');
+grd.addColorStop(1, 'lightblue');
+
+ctx.fillStyle = grd;
+ctx.fillRect(0,0,600,350);
+
+ctx.beginPath();
+ctx.fillStyle = 'green';
+// ctx.arc(300, 710, 520,1 = Math.PI ,0);
+ctx.fill();
+
+ctx.beginPath();
+ctx.fillStyle = 'black';
 
 
 

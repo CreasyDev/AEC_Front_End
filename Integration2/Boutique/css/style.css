@@ -1,0 +1,54 @@
+
+.navBg {
+    background-color: #232f3f;
+}
+
+.logo {
+    width: 5.5rem;
+}
+
+.nav-item a .pay {
+    font-size: 1.3rem;
+}
+
+.fas {
+    font-size: 1rem;
+    color: #f3a847;
+ }
+
+#iconSort {
+    font-size: 1.1rem;
+}
+
+.img2 {
+    width: 2rem;
+}
+
+.p {
+    font-size: 0.8rem;
+}
+
+.far {
+    transform: rotateY(180deg);
+}
+
+
+
+
+/* MEDIA QUERIES */
+/* *************************************** */
+
+@media (max-width: 575px) {
+    .questions {
+        padding-top: 0.5rem;
+    }
+
+    .articlesVedette {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .card {
+        margin-bottom: 0.5rem;
+    }
+}

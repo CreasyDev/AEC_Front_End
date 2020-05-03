@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark navBg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img class="img-fluid logo" src="img/amazonLogo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Instruments & Sons <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="formulaire.html"><i class="fas fa-cart-arrow-down pay"></i></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-12 pr-5">
+                    <img class="img-fluid" src="img/piano.png" alt="">
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-12 col-12">
+                    <h3>Piano Steinway MPK Mini clés MKS</h3>
+                    <h5>de Steinway Professional</h5>
+                    <div class="row py-3">
+                        <div class="col d-flex align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i id="iconSort" class="fas fa-sort-down pl-1 pb-1 text-dark"></i>
+                        </div>
+                        <div class="col px-md-0">
+                            6479 évaluations
+                        </div>
+                        <div class="col-lg-6 col-6 col-12 px-md-0 questions">
+                            109 questions ayant obtenu une réponse
+                        </div>
+                    </div>
+
+                    <div class="col px-0">
+                        <h4>Disponible chez <span>ses vendeurs</span> </h4>
+                    </div>
+                    <div class="col px-0">
+                        <h6>Nouveau (3) à partir de <span>6.395 CDN$</span> + 12.20 CDN$ expédition</h6>
+                    </div>
+                    <div class="col px-0 mb-3">
+                        Couleur: <span class="font-weight-bold">Standart</span>
+                    </div>
+
+                    <div class="row articlesVedette">
+                        <div class="card col px-2 ml-xl-2">
+                            <div class="d-flex align-items-center pt-2">
+                                <img class="img-fluid img2 mr-2" src="img/piano.png" alt="">
+                                <p class="pt-3 p">204.06 CDN$</p>
+                            </div>
+                        </div>
+
+                        <div class="card border-danger col px-2 ml-xl-2">
+                            <div class="d-flex align-items-center pt-2">
+                                <img class="img-fluid img2 mr-2" src="img/piano2.png" alt="">
+                                <p class="pt-3 p text-danger">3 options de 195.00 CDN$</p>
+                            </div>
+                        </div>
+
+                        <div class="card col px-2 ml-xl-2">
+                            <div class="d-flex align-items-center pt-2">
+                                <img class="img-fluid img2 mr-2" src="img/piano3.png" alt="">
+                                <p class="pt-3 p"><img class="img-fluid img2" src="img/prime.png" alt=""></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-12 mt-4">
+                        <ul class="px-0">
+                            <li>Le prix et la disponibilité des articles sur Amazon sont susceptibles de changer.</li>
+                            <li>Disposez-vous d'une carte-cadeau ou d'un code promotionnel ?</li>
+                            <li> Le Panier est un espace de stockage temporaire pour vos articles à prix le plus récent.</li>
+                            <li>Trouvez des réponses dans la description du produit, ainsi que les évaluations.</li>
+                            <li>Livré et vendu par Amazon.com dans un emballage certifié, préparer par Amazon.</li>
+                        </ul>
+                    </div>
+
+                    <div class="col px-0 text-primary">
+                        <p>Avez-vous besoin de plus d'informations sur les produits en français ? Contactez-nous</p>
+                        <p><i class="far fa-comment-alt text-primary"></i> Signaler des informations incorrectes sur les produit</p>
+                    </div>
+
+
+
+
+                    <!-- PAYPAL -->
+                    <!-- ****** -->
+                    <div class="col py-3 px-0">
+                        <div id="paypal-button-container"></div>
+                        <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+                        <script>
+                            paypal.Buttons({
+                                style: {
+                                    shape: 'rect',
+                                    color: 'gold',
+                                    layout: 'vertical',
+                                    label: 'paypal',
+
+                                },
+                                createOrder: function(data, actions) {
+                                    return actions.order.create({
+                                        purchase_units: [{
+                                            amount: {
+                                                value: '1'
+                                            }
+                                        }]
+                                    });
+                                },
+                                onApprove: function(data, actions) {
+                                    return actions.order.capture().then(function(details) {
+                                        alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                                    });
+                                }
+                            }).render('#paypal-button-container');
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Script -->
+        <!-- ====== -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+
+    </body>
+</html>
