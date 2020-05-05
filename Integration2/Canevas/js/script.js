@@ -29,8 +29,8 @@ ctx.stroke();
 
 
 // ELLIPSE
-let canevas = document.getElementById('canvas');
-ctx = canevas.getContext('2d');
+let canvas2 = document.getElementById('canvas');
+ctx = canvas2.getContext('2d');
 ctx.fillStyle = '#0eff53';
 ctx.beginPath();
 ctx.ellipse(250, 250, 100, 200, 45 * Math.PI/90, 0, 2 * Math.PI);
@@ -41,8 +41,8 @@ ctx.stroke();
 
 
 // LIGNE
-let canvas = document.getElementById('myCanvas2');
-ctx = canvas.getContext('2d');
+let canvas3 = document.getElementById('myCanvas2');
+ctx = canvas3.getContext('2d');
 ctx.moveTo(0, 0);
 ctx.lineTo(500, 500);
 ctx.lineWidth = 10;
@@ -63,29 +63,29 @@ function drawTriangle(context, x, y, triangleWidth, triangleHeight, fillStyle){
 }
 
 window.onload = function(){
-    let canvas = document.getElementById("myCanvas3");
-    let context = canvas.getContext("2d");
+    let canvas4 = document.getElementById("myCanvas3");
+    let context = canvas4.getContext("2d");
 
     let grd;
     let triangleWidth = 300;
     let triangleHeight = 300;
     let triangleY = canvas.height / 2 - triangleWidth / 2;
 
-    grd = context.createLinearGradient(canvas.width  / 5, triangleY, canvas.width / 5, triangleY + triangleHeight);
+    grd = context.createLinearGradient(canvas4.width  / 5, triangleY, canvas4.width / 5, triangleY + triangleHeight);
     grd.addColorStop(0, "#ea52ff");
     grd.addColorStop(1, "#008544");
-    drawTriangle(context, canvas.width / 2, triangleY, triangleWidth, triangleHeight, grd);
+    drawTriangle(context, canvas4.width / 2, triangleY, triangleWidth, triangleHeight, grd);
 };
 
 
 
 // ILLUSTRATION
-canvas = document.getElementById('canvas2');
-ctx = canvas.getContext('2d');
+let canvas5 = document.getElementById('canvas5');
+ctx = canvas5.getContext('2d');
 
 grd = ctx.createLinearGradient(0,0,500,0);
-grd.addColorStop(0, 'blue');
-grd.addColorStop(1, 'lightblue');
+grd.addColorStop(0, '#0097cc');
+grd.addColorStop(1, 'blue');
 
 ctx.fillStyle = grd;
 ctx.fillRect(0,0,600,350);
@@ -97,6 +97,31 @@ ctx.fill();
 
 ctx.beginPath();
 ctx.fillStyle = 'black';
+
+/* ---------------------------- */
+// Terre
+ctx.fillStyle = '#006600';
+ctx.beginPath();
+ctx.ellipse(250, 500, 350, 450, 45 * Math.PI/90, 0, 2 * Math.PI);
+ctx.fill();
+
+// BG Lettres
+ctx.beginPath();
+ctx.fillStyle = '#1b212c';
+ctx.fillRect(193,60,120,120);
+ctx.fill();
+ctx.strokeStyle = '#fc3a1a';
+ctx.lineWidth = 5;
+ctx.strokeRect(193,60,120,120);
+
+// Lettres
+ctx.font = "70px Verdana";
+ctx.fillStyle = '#fc3a1a';
+ctx.fillText("An", 209, 140);
+
+
+
+
 
 
 

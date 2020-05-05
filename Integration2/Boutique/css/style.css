@@ -16,6 +16,14 @@
     color: #f3a847;
  }
 
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
 #iconSort {
     font-size: 1.1rem;
 }

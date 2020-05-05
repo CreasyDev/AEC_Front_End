@@ -1,7 +1,1 @@
 
-circle { fill: purple; animation: pulse 2s alternate infinite; }
-@keyframes pulse {
-    100% {
-        r: 30;
-    }
-}
