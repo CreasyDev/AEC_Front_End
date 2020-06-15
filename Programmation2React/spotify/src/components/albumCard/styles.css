@@ -1,0 +1,81 @@
+.albums-header {
+  width: 100%;
+}
+
+.albums-header .albums-header-title {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.albums-header .albums-header-title h1 {
+  font-weight: 700;
+}
+
+.user-profil img {
+  width: 30px;
+  height: 30px;
+}
+
+.user-profil span {
+  color: #b9b8b8 !important;
+  padding: 0 8px;
+  font-size: small;
+}
+
+.marginLeft10px {
+  margin-left: 10px;
+}
+
+.marginRight10px {
+  margin-right: 10px;
+}
+
+.activatedColor {
+  color: #b9b8b8;
+}
+
+.notActivatedColor {
+  color: #616161;
+}
+
+.search-album-container {
+  margin-left: 25px;
+}
+
+.search-album-container input {
+  border-radius: 30px;
+  height: 30px;
+  font-size: small;
+  font-weight: 600;
+}
+
+.whiyteLineSeparator {
+  height: 10px;
+  background: white;
+}
+
+.album-container .overlay {
+  position: absolute;
+  background-color: #020202a1;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.overlay button {
+  border-color: transparent !important;
+}
+
+.ablum-actions .play {
+  font-size: 5em;
+}
+
+.ablum-actions .favorite, .ablum-actions .more {
+  font-size: 1.7em;
+}
+
+.btn-outline-dark:hover {
+  background-color: transparent;
+}

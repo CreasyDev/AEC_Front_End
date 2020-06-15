@@ -1,0 +1,65 @@
+.album-page-container {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+.album-page-img {
+  width: 160px;
+}
+
+.album-infos{
+  text-align: left;
+  font-weight: 500;
+  font-size: small;
+}
+
+.album-infos label {
+  display: block;
+}
+
+.album-infos label, .album-infos span {
+  color: #b1acac;
+}
+
+.album-infos span strong {
+  color:white;
+}
+
+.album-infos .album-actions .round-btn {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  margin-left: 13px;
+}
+
+.album-infos .album-actions .play-btn {
+  height: 35px;
+  border-radius: 20px;
+  width: 120px;
+  font-weight: 700;
+}
+
+.textAlighLeft {
+  text-align: left;
+}
+
+.table-dark {
+  background-color: black;
+  border-color: black;
+}
+
+.music-list-container {
+  margin-top: 20px;
+}
+
+.table-bordered thead td, .table-bordered thead th {
+  color: white;
+}
+
+.table-dark.table-hover tbody tr:hover {
+  cursor: pointer !important;
+}
+
+.width60px {
+  width: 60px;
+}

@@ -1,0 +1,95 @@
+.albums-header {
+  width: 100%;
+}
+
+.albums-header .albums-header-title {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.albums-header .albums-header-title h1 {
+  font-weight: 700;
+}
+
+.user-profil img {
+  width: 30px;
+  height: 30px;
+}
+
+.user-profil span {
+  color: #b9b8b8 !important;
+  padding: 0 8px;
+  font-size: small;
+}
+
+.marginLeft10px {
+  margin-left: 10px;
+}
+
+.marginRight10px {
+  margin-right: 10px;
+}
+
+.activatedColor {
+  color: #b9b8b8;
+}
+
+.notActivatedColor {
+  color: #616161;
+}
+
+.search-album-container {
+  margin-left: 25px;
+}
+
+.search-album-container input {
+  border-radius: 30px;
+  height: 30px;
+  font-size: small;
+  font-weight: 600;
+}
+
+.whiyteLineSeparator {
+  height: 10px;
+  background: white;
+}
+
+.album-list {
+  margin: auto;
+  margin-top: 20px;
+}
+
+.album-container{
+  width: 15rem;
+  border: none;
+}
+
+.album-body {
+  background-color: black;
+  text-align: left;
+  padding-left: 0;
+}
+
+.album-body .card-title {
+  color: #d1d0ec;
+}
+
+.album-body .card-title {
+  color: white;
+  margin-bottom: 4px;
+}
+
+.album-body p {
+  color: #b1acac;
+}
+
+.album-body .card-title, .album-body p {
+  font-weight: 500;
+  font-size: small;
+}
+
+.userProfileActions {
+  color: #b9b8b8;
+  background-color: black;
+  border: none;
+}
