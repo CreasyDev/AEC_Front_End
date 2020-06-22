@@ -1,0 +1,81 @@
+/* Main style SASS */
+
+/* ----- Imports ----- */
+@import Bootstrap/monBootstrap
+@import variables/variables
+@import mixins/mixin
+
+body
+    padding: 0
+    margin: 0
+
+
+/* ---------- GENERAL ---------- */
+/* ----------------------------- */
+
+.bgColorBasis 
+    background-color: $basisColor
+
+.bgColorCream
+    background-color: $creamColor
+
+.textColorBasis 
+    color: $textBasis
+
+.txtColorBtn2 
+    color: $btn2Color
+
+.paddingSection 
+    padding: 8rem 0
+
+.paddingBtn 
+    padding: $btnPad 
+
+.textColorIvory 
+    color: $ivoryColor
+
+h3 
+    font-size: $h3Size 
+
+
+/* ----- Mixins -> includes (valable pour hr, border-radius,...) ----- */
+
+hr 
+    @include margin-bottom(30px)
+    @include margin-top(30px)
+    @include max-width(50px)
+    @include border-width(3px) 
+    @include border-color(#f05f40) 
+
+.hr-about 
+    border-color: $bordColor
+
+.container
+    width: $largeur
+
+
+/* ----------- HEADER ----------- */
+/* ------------------------------ */
+
+.header 
+    background-image: $bgImage
+    background-size: $bgDimensions
+    background-position: $bgPosition
+    height: $hauteur
+
+h1 
+    font-size: $h1Size
+h2 
+    font-size: $h2Size
+p 
+    font-size: $paragSize
+
+
+/* MEDIA QUERIES ---------------- */
+/* ------------------------------ */
+   
+@media(max-width: 768px)
+    h1
+        font-size: $title
+
+
