@@ -2,27 +2,22 @@ import React from 'react';
 import logo from '../img/logo-becflix.png';
 import '../App/App.css';
 import Container from 'react-bootstrap/Container';
-import Categorie from '../Categorie/Categorie';
+import Row from "react-bootstrap/Row"; 
+import Col from "react-bootstrap/Col";
+import {Catalogue} from '../Catalogue/Catalogue';
 
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <Container className="container-fluid text-left px-0 mb-3">
+      <Container fluid>
+        <Row>
+          <Col>
             <img src={logo} className="img-fluid logo" alt="Logo Becflix"></img>
-        </Container>
-      </header>
-      <Container>
-          <Categorie />
-          <Categorie />
-          <Categorie />
-          <Categorie />
-          <Categorie />
-          <Categorie />
+          </Col>
+        </Row>
+         <Catalogue />
       </Container>
-      
-    </div>
+
   );
 }
 

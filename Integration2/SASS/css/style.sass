@@ -4,6 +4,7 @@
 @import Bootstrap/monBootstrap
 @import variables/variables
 @import mixins/mixin
+@import responsive/mediasQueries
 
 body
     padding: 0
@@ -63,19 +64,22 @@ hr
     background-position: $bgPosition
     height: $hauteur
 
-h1 
+h1
     font-size: $h1Size
+
 h2 
     font-size: $h2Size
 p 
     font-size: $paragSize
 
+    
 
-/* MEDIA QUERIES ---------------- */
-/* ------------------------------ */
-   
-@media(max-width: 768px)
+@media (max-width: 775px)
     h1
-        font-size: $title
+        font-size: $h1SizeResponsive
+
+
+   
+
 
 

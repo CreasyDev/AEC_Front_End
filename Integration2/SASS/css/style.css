@@ -1,9 +1,11 @@
 /* Main style SASS */
 /* ----- Imports ----- */
-/* Main Bootstrap SASS */
+.monContainer {
+  width: 100%; }
+
 .col-3 {
   float: left;
-  width: 25%; }
+  width: 41.6666666667%; }
 
 .col-4 {
   float: left;
@@ -19,14 +21,13 @@
 
 .col-7 {
   float: left;
-  width: 58.3333333333%; }
-
-.col-10 {
-  text: left;
-  width: 83.3333333333%; }
+  width: 41.6666666667%; }
 
 /* Main variables SASS */
 /* Main mixins SASS */
+@media (max-width: 775px) {
+  h1 {
+    font-size: 2.3rem; } }
 body {
   padding: 0;
   margin: 0; }
@@ -73,7 +74,7 @@ h3 {
   height: 100vh; }
 
 h1 {
-  font-size: 3.65rem; }
+  font-size: 3.3rem; }
 
 h2 {
   font-size: 1.15rem; }
@@ -81,10 +82,8 @@ h2 {
 p {
   font-size: 1.15rem; }
 
-/* MEDIA QUERIES ---------------- */
-/* ------------------------------ */
-@media(max-width: 768px) {
+@media (max-width: 775px) {
   h1 {
-    font-size: 2rem; } }
+    font-size: 2.3rem; } }
 
 /*# sourceMappingURL=style.css.map */

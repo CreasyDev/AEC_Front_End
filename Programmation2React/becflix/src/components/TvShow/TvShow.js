@@ -1,16 +1,34 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
-import imageBecflix from '../img/becflix.jpg';
-
-const image = <img className="imgBecflix img-fluid" title="serieBecflix" src={imageBecflix} alt="Serie Becflix" />
 
 
-export default class TvShow extends React.Component {
+export class TvShow extends React.Component {
+
+    constructor(props) {
+        super(props);
+       
+        this.state = {
+            hovered: false
+        }
+
+        this.onMouseOver = this.onMouseOver.bind(this);
+        this.onMouseOut = this.onMouseOut.bind(this);
+
+        this.onMouseOver = () => this.setState({hovered: !this.state.hovered});
+      
+    }
 
     render() {
         return (
             
-            <Col md="6" lg="2" className="mb-3 mb-sm-0 mb-md-3">{image}</Col>
+            <Col col="12" lg="2" className="mb-3 mb-sm-0 mb-md-3">
+                <img src = {this.props.src} 
+                    alt = {this.props.alt}
+                    title = {this.props.title}
+                    className = "img-fluid"
+                    onMouseOver={this.onMouseOver}
+                />
+            </Col>
 
         )
     }
