@@ -20,7 +20,21 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Weather PWA">
+    <meta name="description" content="A sample weather app">
+    <meta name="theme-color" content="#2F3BA2" />
     <link rel="apple-touch-icon" href="img/icons/icon-152x152.png">
+
+    <script>
+        // Register service worker.
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then((reg) => {
+                        console.log('Service worker registered.', reg);
+                    });
+            });
+        }
+    </script>
 </head>
 
     <body>
@@ -512,5 +526,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
         <script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+        <script src="js/install.js"></script>
     </body>
 </html>
