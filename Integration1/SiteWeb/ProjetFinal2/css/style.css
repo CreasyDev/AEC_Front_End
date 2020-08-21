@@ -1,0 +1,603 @@
+/* MAIN STYLE CSS / PROJET FINAL / Par Franck Gallard. Dernière mise à jour le 4 Avril 2020 */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.015rem;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url('../font/Arimo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Prata';
+    src: url('../font/Prata-Regular.ttf');
+}
+
+
+
+/******************* GENERAL ********************/
+
+.logo {
+    width: 15rem;
+}
+
+
+#header .navbar-nav li.active > a {
+    color: #e883ae;
+}
+
+.bg-nav {
+    background-color: #754b75;
+}
+
+.active {
+    color: #e883ae;
+}
+
+.bgMauve{
+    background-color: #e883ae;
+    border-color: #e883ae;
+    font-size: 0.9rem;
+}
+
+.bgMauveCarousel {
+    background-color: #e883ae;
+    border-color: #e883ae;
+}
+
+.bgPurple {
+    background-color: #754b75;
+}
+
+.bgGrey {
+    background-color: #eae9e9;
+}
+
+.colorPurple {
+    color: #754b75;
+}
+
+.colorLightPurple {
+    color: #e883ae;
+}
+
+.colorBlue {
+    color: #45b29d;
+}
+
+.pBgMauve {
+    padding: 2rem 2rem 1.3rem;
+}
+
+.pSection {
+    padding: 6rem 0.699rem;
+}
+
+.pSection2 {
+    padding: 5.1rem 0 4.5rem;
+}
+
+.pMedium {
+    padding: 2.8rem 0 5.3rem;
+}
+
+.py {
+    padding: 5rem 0;
+}
+
+.pt {
+    padding-top: 6rem;
+}
+
+.ptTitle {
+    padding: 3.438rem 0 1.25rem;
+}
+
+.mb {
+  padding-bottom: 5rem;
+}
+
+.indicatorTemoignage {
+    top: 30rem;
+}
+
+a.cursor {
+    cursor: pointer;
+}
+
+.borderRadius {
+    border-radius: 2rem;
+}
+
+.divider {
+    height: 0.3rem;
+    width: 5rem;
+    background-color: #e883ae;
+}
+
+.jumbotron {
+    border-radius: 0;
+}
+
+/* Parallax ---------------------- */
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fontNav {
+    font-family: 'Poppins', sans-serif;
+}
+
+.caption {
+    top: 35%;
+}
+
+.Mb-control .fas {
+    color: #754b75;
+    font-size: 2rem;
+}
+
+.fontTitle {
+    font-family: 'Prata', sans-serif;
+    font-size: 3.375rem;
+    font-weight: 400;
+}
+
+.font-family {
+    font-family: 'Prata', sans-serif;
+    font-size: 1.725rem
+}
+
+.h2Font {
+    font-family: 'Prata', sans-serif;
+    font-size: 2.375rem;
+}
+
+.fontPrata {
+    font-family: 'Prata', sans-serif;
+}
+
+.slogan1 {
+    font-size: 1.125rem;
+}
+
+.carousel-indicators1 {
+    top: 29rem;
+}
+
+.carousel-indicators2 {
+    top: 30rem;
+}
+
+.carousel-indicators3 {
+    bottom: 1.1rem;
+}
+
+.carousel-indicators li {
+    height: 0.938rem;
+    width: 0.938rem;
+    border-radius: 100%;
+    background-color: #754b75;
+}
+
+.btn-primary:hover {
+    background-color: #754b75;
+    border: 0.063rem solid #754b75;
+}
+
+
+/***************************************************************/
+/* PAGE D'ACCUEIL */
+/***************************************************************/
+
+/* Section Bannière 1 ---------------- */
+
+#home {
+    background-image: url('../img/bg-Accueil-min.jpg');
+    height: 100%;
+    padding: 12%;
+}
+
+
+.btn1, .btn2 {
+    background-color: #e883ae;
+    border-color: #e883ae;
+    font-size: 0.9rem;
+}
+
+.btnHeader2 {
+    background-color: #45b29d;
+    border-color: #45b29d;
+}
+
+
+/* Section Infos --------------------- */
+
+.fas, .far {
+    font-size: 5.3rem;
+    color: #754b75;
+}
+
+.fontCheck {
+    font-size: 2rem;
+}
+
+.h4::before {
+    content: "\f058";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 1.875rem;
+    font-weight: 900;
+    color: #754b75;
+    padding-right: 0.9rem;
+}
+
+.pl {
+    padding-left: 2.9rem;
+}
+
+p {
+    font-weight: 300;
+    letter-spacing: 0.019rem;
+}
+
+
+/* Section Modal --------------------- */
+
+.btnModal {
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
+
+.fontTitleModal {
+    font-family: 'Prata', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    margin-top: 3.8rem;
+}
+
+
+/* Section Rabais --------------------- */
+
+#rabais {
+    background-image: url('../img/rabaisBg-min.jpg');
+}
+
+
+/* Sections Témoignages --------------- */
+
+.width-90 {
+    width: 90%;
+}
+
+.starsIcons {
+    font-size: 1.2rem;
+}
+
+.topCarouselIndicators {
+    top: 29rem;
+}
+
+
+/* Section Contact -------------------- */
+
+#contact {
+    background-image: url('../img/bg-contact-min.jpg');
+}
+
+.fontSubTitle {
+    font-size: 0.948rem
+}
+
+.iconContact {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.p-contact {
+    font-size: 1.3rem;
+}
+
+.bg-input {
+    background: rgba(255, 255, 255, 0.3);
+    border: 0;
+}
+
+
+#contact .form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#contact input:focus::-webkit-input-placeholder {
+    color: #e883ae;
+}
+
+#contact textarea:focus::-webkit-input-placeholder {
+    color: #e883ae;
+}
+
+#contact textarea {
+    height: 8.6rem;
+}
+
+#contact button#send i::before:hover {
+    color: #232525;
+}
+
+.iconBtn {
+    font-size: 1.3rem;
+}
+
+#contact  button#send:hover .iconBtn {
+    color: #232525;
+}
+
+
+/**************************************************************/
+/* PAGE À PROPOS */
+/**************************************************************/
+
+/* Section À Propos -------------------- */
+
+#about {
+    background-image: url('../img/propos-min.jpg');
+}
+
+.overlay1 {
+    background: rgba(225, 225, 225, 0.9);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Section Équipe ---------------------- */
+
+#team img {
+    margin-top: -3.125rem;
+}
+
+.h5Team {
+    font-size: 1.10rem;
+}
+
+.fontSizeIcons {
+    font-size: 1.563rem;
+}
+
+.boderColor {
+    border-color: #754b75;
+}
+
+/* Section Nos Studios ------------------ */
+
+#studio img {
+    filter: brightness(83%);
+}
+
+#studio h3 {
+    z-index: 1;
+}
+
+
+/* Section Nous ------------------------- */
+
+#Nous {
+    background-image: url('../img/bgNous-min.jpg');
+}
+
+#Nous .fas {
+    font-size: 2.5rem;
+}
+
+/* Progress bars */
+.progress-container h5 {
+    font-size: 1.30rem;
+}
+.progress {
+    height: 0.75rem;
+    border-radius: 0;
+}
+
+.progress-bar {
+    background-color: #45b29d;
+    height: 0.75rem;
+}
+
+
+/*************************************************************/
+/* PAGE BIENFAITS */
+/*************************************************************/
+
+.iconBF {
+    font-size: 3rem;
+    color:  #e883ae;
+}
+
+/* Carousel ---------------------------- */
+
+#slides .carousel-inner {
+    height: 91vh;
+}
+
+
+#slides .carousel-caption {
+    position: absolute;
+    top: 53%;
+    transform: translateY(-50%);
+}
+
+#slides .chevrons .fas {
+    font-size: 3rem;
+}
+
+#slides .carousel-inner .btn {
+    font-size: 0.9rem;
+}
+
+
+/* Section Discount --------------------- */
+
+#discount {
+    background-image: url('../img/bg-discount-min.jpg');
+    background-position-y: top;
+    -ms-background-position-y: top;
+    height: 54%;
+}
+
+.bg-image {
+    background-image: url('../img/imgBienfaits-min.jpg');
+    background-size: cover;
+}
+
+.borderDiscount {
+    border: 0.125rem dashed #fff;
+}
+
+.ptDiscount {
+    padding-top: 3rem;
+}
+
+.z-index {
+    z-index: 100;
+}
+
+
+/* Section Modules ------------------------ */
+
+#Modules {
+    background-image: url('../img/yogaModules-min.jpg');
+    background-position-y: top;
+    -ms-background-position-y: top;
+}
+
+.pModules {
+    padding: 5.2rem 0 4rem;
+}
+
+#Modules .img-fluid {
+    width: 75%;
+}
+
+.h3Font {
+    font-size: 2.5rem;
+}
+
+.overlay2 {
+    background: rgba(117, 75, 117, 0.8);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.blocContent {
+    z-index: 100;
+}
+
+.card-standard {
+    border: 0.188rem solid #754b75;
+}
+
+.event {
+    border: 0.188rem solid #e883ae;
+}
+
+.padding-li-card {
+    padding: .5rem 0;
+}
+
+.btnOutline-Purple {
+    border: 0.081rem solid #754b75;
+}
+
+.btnMauve {
+    background-color: #e883ae;
+    border: 0.081rem solid #e883ae;
+}
+
+
+/* Section Articles ------------------------ */
+
+.h5 {
+    font-size: 1.010rem;
+}
+
+.btnOutlineMauve {
+    color: #e883ae;
+    border-color: #e883ae;
+}
+
+
+/*************************************************************/
+/* FOOTER */
+/*************************************************************/
+
+footer  {
+    font-size: 0.948rem;
+}
+
+.bgFooter {
+    background-color: #2e4553;
+}
+
+.list {
+    border-radius: 100%;
+    border: 0.063rem solid #fff;
+    height: 2.8rem;
+    width: 2.8rem;
+}
+
+.fontH6 {
+    font-size: 1.325rem;
+}
+
+.fontCoordonnees {
+    font-size: 0.948rem;
+    color: #45b29d;
+}
+
+footer .fas {
+    font-size: 1rem;
+    color: #45b29d;
+}
+
+.socialIcons {
+    font-size: 1.3rem;
+}
+
+.bgBottomFooter {
+    background-color: #293e4a;
+}
+
+.colorGrey {
+    font-size: 0.948rem;
+    color: #a0a3a5;
+}
+
+.pb {
+    padding-bottom: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
