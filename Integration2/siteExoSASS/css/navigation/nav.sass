@@ -1,0 +1,19 @@
+/* Navigation style SASS */
+
+/* ----- Imports ----- */
+@import variables/variable
+@import mixins/mixin
+@import responsive/responsive
+
+
+.navbar .nav-link
+    @include attrNavbar
+
+.active
+    color: $activeStyle
+
+.navbar .fas,.fab
+    font-size: $fontIconsSocials
+
+.navSecondaire
+    @include navSecondaire

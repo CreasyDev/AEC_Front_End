@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7144c050-12a4-4626-94a8-2a6d23b59de5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Canevas/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Canevas/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/Catalogue/Catalogue.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/Catalogue/Catalogue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/Categorie/Categorie.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/Categorie/Categorie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/TvShow/TvShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/TvShow/TvShow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/img/GetImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/img/becflix.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/img/logo-becflix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2React/becflix/src/components/img/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1dBnJepdutczTn6t8C84hIWvoLU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7144c050-12a4-4626-94a8-2a6d23b59de5" name="Default Changelist" comment="" />
+      <created>1591907283781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591907283781</updated>
+      <workItem from="1591907285817" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

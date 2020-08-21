@@ -1,0 +1,79 @@
+
+
+
+$paragraphe: 2rem 
+$fontFamily: Arial
+$Italic: Italic
+
+@for $i from 1 through 6
+      .p-#{$i}
+            font-size: $paragraphe * $i
+            font-family: $fontFamily
+            font-style: $Italic
+
+   
+       
+            
+
+
+$valeurs: ("pink": #dc51ac, "red": #d64651, "orange": #e55937)
+
+@each $valeur, $i in $valeurs
+      .container
+            &.#{$valeur}
+                  background-color: $i
+
+$directions: arrow-nord arrow-sud arrow-est arrow-ouest
+
+@each $direction in $directions
+      .arrow-#{$direction} 
+            background-image: url('../img/#{$direction}.png')
+            background-repeat: no-repeat
+            background-position: center 
+
+
+$directions: nord,sud,est,west
+
+@each $directions in $directions  
+      .vents-#{$directions}    
+            background-image: url("../medias/"+ #{$directions} + ".jpg")
+            background-position: center 
+            background-repeat: no-repeat 
+            height: 500px      
+
+
+$valeurs: ("un": 1, "deux": 2, "trois": 3, "quatre": 4, "cinq": 5, "six": 6, "sept": 7, "huit": 8, "neuf": 9, "dix": 10)
+
+@each $valeur, $i in $valeurs
+      .container
+            &.#{$valeur}
+                  width: $i/10 * 100%
+
+
+
+@mixin position($gauche: true)
+      width: 25% 
+            @if $gauche
+                  float: left
+            @else
+                  float: right
+
+img 
+      @include position($gauche: false)
+p  
+      @include position($gauche: true)
+
+
+
+@function MaFonction($mot, $lettre)
+      $count: 0
+      @for $i from 1 through str-length($mot)
+            $ltr: str-slice($mot, $i, $i)
+            @if $ltr == $lettre
+                  $count: $count +1
+      @return $count
+
+.test-function
+      width: MaFonction("bonjour", "o")
+
+     

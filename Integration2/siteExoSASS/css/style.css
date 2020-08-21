@@ -1,0 +1,521 @@
+@charset "UTF-8";
+/* Main style SASS */
+/* ----- Imports ----- */
+/* monBoostrap */
+.container {
+  width: 100%; }
+
+.col-1 {
+  width: 8.3333333333%; }
+
+.col-2 {
+  width: 16.6666666667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.3333333333%; }
+
+.col-5 {
+  width: 41.6666666667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.3333333333%; }
+
+.col-8 {
+  width: 66.6666666667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.3333333333%; }
+
+.col-11 {
+  width: 91.6666666667%; }
+
+.col-12 {
+  width: 100%; }
+
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+/* Navigation style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+/* Mixins style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* GENEARAL ------------------------------ */
+/* --------------------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION PRICIPALE -------------------- */
+/* ----------------------------------------- */
+/* ASIDE COLUMN ---------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION SECONDAIRE ------------------- */
+/* ----------------------------------------- */
+/* FOOTER ---------------------------------- */
+/* ----------------------------------------- */
+/* Responsive style SASS */
+/* ----- Imports ----- */
+/* Mixins style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* GENEARAL ------------------------------ */
+/* --------------------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION PRICIPALE -------------------- */
+/* ----------------------------------------- */
+/* ASIDE COLUMN ---------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION SECONDAIRE ------------------- */
+/* ----------------------------------------- */
+/* FOOTER ---------------------------------- */
+/* ----------------------------------------- */
+@media (max-width: 575px) {
+  /* CAT├ëGORIES ---------------- */
+  #categories .row {
+    margin: 0 auto;
+    justify-content: center; }
+
+  .filter {
+    margin: 0.33rem; }
+
+  /* -------- ASIDE COLUMN -------- */
+  .input-group {
+    width: 98% !important; }
+
+  /* FOOTER -------------------- */
+  footer .row {
+    margin: 0 0.031rem; }
+
+  footer .blockPosts {
+    padding: 0; }
+
+  footer .col-1 .nav-link {
+    padding: 0; } }
+.navbar .nav-link {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 1.063rem;
+  font-weight: 600; }
+
+.active {
+  color: #fff; }
+
+.navbar .fas, .fab {
+  font-size: 1.3rem; }
+
+.navSecondaire {
+  background: transparent;
+  color: #ccc !important;
+  font-size: 1.063rem;
+  font-weight: 600; }
+
+/* Footer style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+/* Mixins style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* GENEARAL ------------------------------ */
+/* --------------------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION PRICIPALE -------------------- */
+/* ----------------------------------------- */
+/* ASIDE COLUMN ---------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION SECONDAIRE ------------------- */
+/* ----------------------------------------- */
+/* FOOTER ---------------------------------- */
+/* ----------------------------------------- */
+/* Responsive style SASS */
+/* ----- Imports ----- */
+/* Mixins style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* GENEARAL ------------------------------ */
+/* --------------------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION PRICIPALE -------------------- */
+/* ----------------------------------------- */
+/* ASIDE COLUMN ---------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION SECONDAIRE ------------------- */
+/* ----------------------------------------- */
+/* FOOTER ---------------------------------- */
+/* ----------------------------------------- */
+@media (max-width: 575px) {
+  /* CAT├ëGORIES ---------------- */
+  #categories .row {
+    margin: 0 auto;
+    justify-content: center; }
+
+  .filter {
+    margin: 0.33rem; }
+
+  /* -------- ASIDE COLUMN -------- */
+  .input-group {
+    width: 98% !important; }
+
+  /* FOOTER -------------------- */
+  footer .row {
+    margin: 0 0.031rem; }
+
+  footer .blockPosts {
+    padding: 0; }
+
+  footer .col-1 .nav-link {
+    padding: 0; } }
+footer {
+  background-color: #262626;
+  color: #e3e3e3;
+  line-height: 1.8rem;
+  font-size: 0.975rem;
+  font-weight: 400;
+  font-family: "Raleway"; }
+
+footer .fab {
+  font-size: 1.125rem; }
+
+footer .borderBottom {
+  border-bottom: 0.063rem solid #3e3e3e; }
+
+footer .py-3 a {
+  color: #fff; }
+  footer .py-3 a:hover {
+    color: #47c9e5;
+    text-decoration: none; }
+
+footer .boutonFooter {
+  background-color: #3a3a3a;
+  border-color: #3a3a3a; }
+
+footer .bgCopyRight {
+  background-color: #222222; }
+
+/* Mixins style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* GENEARAL ------------------------------ */
+/* --------------------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION PRICIPALE -------------------- */
+/* ----------------------------------------- */
+/* ASIDE COLUMN ---------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION SECONDAIRE ------------------- */
+/* ----------------------------------------- */
+/* FOOTER ---------------------------------- */
+/* ----------------------------------------- */
+/* Responsive style SASS */
+/* ----- Imports ----- */
+/* Mixins style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* GENEARAL ------------------------------ */
+/* --------------------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION PRICIPALE -------------------- */
+/* ----------------------------------------- */
+/* ASIDE COLUMN ---------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION SECONDAIRE ------------------- */
+/* ----------------------------------------- */
+/* FOOTER ---------------------------------- */
+/* ----------------------------------------- */
+@media (max-width: 575px) {
+  /* CAT├ëGORIES ---------------- */
+  #categories .row {
+    margin: 0 auto;
+    justify-content: center; }
+
+  .filter {
+    margin: 0.33rem; }
+
+  /* -------- ASIDE COLUMN -------- */
+  .input-group {
+    width: 98% !important; }
+
+  /* FOOTER -------------------- */
+  footer .row {
+    margin: 0 0.031rem; }
+
+  footer .blockPosts {
+    padding: 0; }
+
+  footer .col-1 .nav-link {
+    padding: 0; } }
+@font-face {
+  font-family: "Monserrat", sans-serif;
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+  font-family: "Raleway", sans-serif; }
+
+/* GENERAL --------------------------------- */
+/* ----------------------------------------- */
+.py {
+  padding: 4rem 0; }
+
+.mt {
+  margin-top: 4rem; }
+
+.card {
+  border-radius: 0;
+  border: none; }
+
+.card-title {
+  font-size: 1.75rem; }
+
+h3 {
+  font-size: 1.563rem;
+  font-weight: 700;
+  font-family: "Montserrat"; }
+
+.boutonAside, .boutonFooter {
+  font-family: "Montserrat";
+  font-size: 0.813rem; }
+
+/* HEADER ---------------------------------- */
+/* ----------------------------------------- */
+header {
+  background-image: url(../medias/Blog_title_image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh; }
+
+h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif; }
+
+.subTitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.175rem; }
+
+.caption {
+  margin-top: 8%; }
+
+/* CAT├ëGORIES ------------------------------- */
+/* ------------------------------------------ */
+.categories {
+  padding: 6px 15px;
+  border: 0.046rem solid #e6e6e6;
+  border-radius: 6.25rem !important;
+  font-size: 0.965rem; }
+
+.categories:hover {
+  background-color: #47c9e5;
+  border: 0.046rem solid #47c9e5;
+  color: #fff !important; }
+.categories:active {
+  background-color: #47c9e5;
+  font-weight: bold;
+  color: #B25500; }
+
+.categoriesLink1 {
+  background-color: #47c9e5;
+  color: #fff;
+  font-weight: bold;
+  border: 0.046rem solid #47c9e5; }
+
+.absoluteButton {
+  bottom: 3.5rem;
+  right: 3rem;
+  z-index: 1;
+  border-radius: 6.25rem !important;
+  background-color: #f6f6f6 !important;
+  border-color: #f6f6f6 !important;
+  padding: 0.6rem 1.6rem; }
+
+.absoluteButton .far {
+  font-size: 1.1rem; }
+
+.widthLi {
+  width: 14.25rem; }
+
+.paddingLi {
+  padding: 25px 17.5px; }
+
+.imgPosts {
+  width: 4.75rem; }
+
+h6 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif; }
+
+.search {
+  width: 95%;
+  padding: 2rem;
+  border: 0;
+  box-shadow: 0 0.938rem 2.813rem -0.563rem rgba(0, 0, 0, 0.2); }
+
+.btnColorPosts {
+  background-color: #f0f0f0;
+  padding: 0 1.5rem; }
+
+.btnColorPosts .fa {
+  font-size: 1.2rem;
+  color: #505050; }
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* ASIDE COLUMN ------------------------- */
+/* -------------------------------------- */
+.boutonAside {
+  background-color: #f6f6f6 !important;
+  border-color: #f6f6f6 !important; }
+
+.card {
+  box-shadow: 0 0.938rem 2.813rem -0.563rem rgba(0, 0, 0, 0.2); }
+
+.input-group {
+  width: 92%; }
+
+/*# sourceMappingURL=style.css.map */

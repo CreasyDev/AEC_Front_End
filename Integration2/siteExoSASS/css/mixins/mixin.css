@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* Mixins style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* GENEARAL ------------------------------ */
+/* --------------------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION PRICIPALE -------------------- */
+/* ----------------------------------------- */
+/* ASIDE COLUMN ---------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION SECONDAIRE ------------------- */
+/* ----------------------------------------- */
+/* FOOTER ---------------------------------- */
+/* ----------------------------------------- */
+
+/*# sourceMappingURL=mixin.css.map */

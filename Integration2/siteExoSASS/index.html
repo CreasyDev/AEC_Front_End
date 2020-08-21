@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Par Franck Gallard -->
+<!-- Le 11-07-2020 -->
+<html lang="fr-ca">
+<head>
+    <title>Site Exercice SASS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+    <body>
+        <!-- HEADER -->
+        <!-- ====== -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark pt-4">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="medias/gallerie/Jevelin-logov1.png" class="img-fluid" alt="..."></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Style
+                                </a>
+                                <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item bg-dark text-light" href="#">Masonerie + Sidebar</a>
+                                    <a class="dropdown-item bg-dark text-light" href="#">Masonerie + Full Width</a>
+                                    <a class="dropdown-item bg-dark text-light" href="#">From Side to Side + Slider</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">People</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Travel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Commercial</a>
+                            </li>
+                            <li class="nav-item ml-3">
+                                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <div class="col-xl-4 col-lg-4 offset-xl-4 offset-lg-4 caption text-center">
+                <h2 class="text-center">Home</h2>
+                <p class="subTitle">Masonry + boxel layout</p>
+            </div>
+        </header>
+
+
+        <!-- CATÉGORIES -->
+        <!-- ========== -->
+        <!-- <section class="py-4" id="categories"> -->
+            <div id="categories" class="container">
+                <div class="row col-xl-10 col-lg-10 offset-xl-1 offset-lg-1 py">
+                    <span class="filter mr-2 active">
+                        <a class="nav-link categories categoriesLink1" href="#">All</a>
+                    </span>
+                    <span class="filter active mr-2">
+                        <a class="nav-link categories text-muted" href="#">Commercial</a>
+                    </span>
+                    <span class="filter active mr-2">
+                        <a class="nav-link categories text-muted" href="#">Design</a>
+                    </span>
+                    <span class="filter active mr-2">
+                        <a class="nav-link categories text-muted" href="#">Nature</a>
+                    </span>
+                    <span class="filter active mr-2">
+                        <a class="nav-link categories text-muted" href="#">People</a>
+                    </span>
+                    <span class="filter active mr-2">
+                        <a class="nav-link categories text-muted" href="#">Photography</a>
+                    </span>
+                    <span class="filter active mr-2">
+                        <a class="nav-link categories text-muted" href="#">Tech</a>
+                    </span>
+                    <span class="filter active mr-2">
+                        <a class="nav-link categories text-muted" href="#">Travel</a>
+                    </span>
+                    <span class="filter active mr-2">
+                        <a class="nav-link categories text-muted" href="#">Uncategorrized</a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="card">
+                                    <img src="medias/gallerie/jeunefemme.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">Trip that you’ll never ever forget</h2>
+                                        <p class="card-text text-muted">Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">PEOPLE, TRAVEL</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="card">
+                                    <!-- CAROUSEL -->
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                            <img class="d-block w-100" src="medias/gallerie/appareil.jpg" class="img-fluid" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                            <img class="d-block w-100" src="medias/gallerie/smartphone.jpg" class="img-fluid" alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                            <img class="d-block w-100" src="medias/gallerie/toolsphoto.jpg" class="img-fluid" alt="Third slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">Must-have gear</h2>
+                                        <p class="card-text text-muted">Ut et lacus ex. Aliquam dignissim mauris sit amet purus convallis, vitae vehicula lectus tincidunt. Nulla placerat…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">PHOTOGRAPHY, TECH</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="card">
+                                    <img src="medias/gallerie/robot2.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">Trip that you’ll never ever forget</h2>
+                                        <p class="card-text text-muted">Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">PEOPLE, TRAVEL</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 mt">
+                                <div class="card">
+                                    <img src="medias/gallerie/sculpteur2.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">Craftsmen at work</h2>
+                                        <p class="card-text text-muted">Morbi eu ante mollis, elementum tortor in, hendrerit libero. Maecenas feugiat rhoncus magna, at consequat libero dictum…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">PEOPLE</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="card">
+                                    <img src="medias/gallerie/aquativities2.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">Top 5 tips to have a great vacation</h2>
+                                        <p class="card-text text-muted">In sed consectetur mi, a efficitur dui. Duis ac lacus sem. Aenean eget justo malesuada, fringilla turpis…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">PEOPLE, TRAVEL</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 mt">
+                                <div class="card">
+                                    <div class='embed-container'>
+                                        <iframe src='https://www.youtube.com/embed/g4n2yVPnQzs' frameborder='0' allowfullscreen></iframe>
+                                    </div>
+
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">Video: Testing the “Black beast” on the road</h2>
+                                        <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in eros scelerisque, scelerisque nisl sit amet, molestie…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">PEOPLE, TECH</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 mt">
+                                <div class="card">
+                                    <img src="medias/gallerie/architecture.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">Main headquarters if finally ready</h2>
+                                        <p class="card-text text-muted">Ut et lacus ex. Aliquam dignissim mauris sit amet purus convallis, vitae vehicula lectus tincidunt. Nulla placerat…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">COMMERCIAL</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="card">
+                                    <img src="medias/gallerie/cloths.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">The proper way to dress up for the business meeting</h2>
+                                        <p class="card-text text-muted">Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat volutpat. Quisque at finibus dui. Praesent…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">COMMERCIAL, DESIGN</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 mt">
+                                <div class="card">
+                                    <img src="medias/gallerie/blackWhite.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">Black and white portrait</h2>
+                                        <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in eros scelerisque, scelerisque nisl sit amet, molestie…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">DESIGN, PEOPLE</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="card">
+                                    <img src="medias/gallerie/randonnee.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">The white slopes</h2>
+                                        <p class="card-text text-muted">Ut et lacus ex. Aliquam dignissim mauris sit amet purus convallis, vitae vehicula lectus tincidunt. Nulla placerat…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">NATURE, PEOPLE, TRAVEL</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 mt">
+                                <div class="card">
+                                    <img src="medias/gallerie/cameraWater.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">Check out my new action camera!</h2>
+                                        <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in eros scelerisque, scelerisque nisl sit amet, molestie…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">TECH</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="card">
+                                    <img src="medias/gallerie/shoes.jpg" class="img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text text-muted">by shufflehound November 23, 2016.</p>
+                                        <h2 class="card-title text-dark">First steps in the right direction</h2>
+                                        <p class="card-text text-muted">Morbi eu ante mollis, elementum tortor in, hendrerit libero. Maecenas feugiat rhoncus magna, at consequat libero dictum…</p>
+                                    </div>
+                                
+                                    <button class="btn btn-primary absoluteButton position-absolute" href="#" role="button">
+                                        <i class="far fa-comment text-muted"> 0</i>
+                                    </button>
+                            
+                                    <ul class="list-group list-group-flush d-inline-block">
+                                        <li class="list-group-item widthLi"></li>
+                                        <li class="list-group-item paddingLi">COMMERCIAL, PEOPLE</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </section> -->
+
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="col pb-3">
+                            <h3 class="font-weight-bold">Latest posts</h3>
+                        </div>
+                        <div class="col d-flex align-items-center py-3 border-bottom">
+                            <img src="medias/gallerie/img-2.jpg" class="img-fluid imgPosts rounded-circle" alt="...">
+                            <div class="col">
+                            <a class="text-muted" href="#">PEOPLE, TRAVEL</a>
+                                <h6>Trip that you’ll never ever forget</h6>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-center py-3 border-bottom">
+                            <img src="medias/gallerie/appareil.jpg" class="img-fluid imgPosts rounded-circle" alt="...">
+                            <div class="col">
+                                <a class="text-muted" href="#">PHOTOGRAPHY, TECH</a>
+                                <h6>Must-have gear</h6>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-center py-3 border-bottom">
+                            <img src="medias/gallerie/robot.jpg" class="img-fluid imgPosts rounded-circle" alt="...">
+                            <div class="col">
+                                <a class="text-muted" href="#">DESIGN, PHOTOGRAPHY</a>
+                                <h6>Movielike photo shoot – B&W</h6>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-center py-3">
+                            <img src="medias/gallerie/sculpteur.jpg" class="img-fluid imgPosts rounded-circle" alt="...">
+                            <div class="col">
+                                <a class="text-muted" href="#">PEOPLE</a>
+                                <h6>Craftsmen at work</h6>
+                            </div>
+                        </div>
+                        
+                        <div class="col my-4">
+                            <img src="medias/gallerie/ad.png" class="img-fluid" alt="...">
+                        </div>
+
+                        <div class="col">
+                            <!-- <form> -->
+                                <div class="input-group">
+                                    <input type="text" class="form-control search" placeholder="Search here...">
+                                    <div class="input-group-append">
+                                        <button class="btn btnColorPosts" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            <!-- </form> -->
+                        </div>
+
+                        <div class="col my-5">
+                           <h3 class="font-weight-bold">Popular tags</h3>
+                           <div class="col mt-3 p-0">
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">BIKE</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">BUILDING</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">CAMERA</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">CRAFT</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">GEAR</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">GIRL</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">JUMPING</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">LAKE</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">LIFESTYLE</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">MASTER</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">MOCK-UP</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">MOTIVATION</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">MOUNTAINS</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">MOVIE</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">NOTEBOOK</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">OFFICE</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">STORMTROOPER</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">SWIMMING</a>
+                                 <a class="btn btn-secondary boutonAside text-muted font-weight-bold mt-3 mr-3" href="#">TROOPER</a>
+                                 
+                                 
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation secondaire -->
+            <nav class="navbar navSecondaire navbar-expand-lg navbar-dark">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-muted" href="#">1<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">2</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Next</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>  
+
+
+            <!-- FOOTER -->
+            <!-- ====== -->
+            <footer>
+                <div class="container py-5">
+                    <div class="row mxResponsive">
+                        <div class="col-xl-4 col-lg-4 my-4">
+                            <img src="medias/gallerie/Footer_logo.png" class="img-fluid pb-3" alt="...">
+                            <p>
+                                Pellentesque placerat tincidunt urna, vitae feugiat magna vestibulum non. Mauris ut sagittis est.
+                                Pellentesque a felis est. Duis in risus metus. Cras felis ante, sodales eget pretium eu, hendrerit at metus.
+                                Maecenas aliquam dictum sapien id ornare.
+                            </p>
+                            <div class="row">
+                                <div class="col-1 pl-0">
+                                    <a class="nav-link" href="#"><i class="fab fa-facebook-f text-light"></i></a>
+                                </div>
+                                <div class="col-1 pl-0">
+                                    <a class="nav-link" href="#"><i class="fab fa-twitter text-light"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-4 my-4 blockPosts">
+                            <div class="col pb-3">
+                                <h3 class="font-weight-bold">Latest posts</h3>
+                            </div>
+                            <div class="col d-flex align-items-center py-3 borderBottom">
+                                <img src="medias/gallerie/img-2.jpg" class="img-fluid imgPosts rounded-circle" alt="...">
+                                <div class="col">
+                                <a href="#">PEOPLE, TRAVEL</a>
+                                    <h6><a href="#">Trip that you’ll never ever forget</a></h6>
+                                </div>
+                            </div>
+                            <div class="col d-flex align-items-center py-3 borderBottom">
+                                <img src="medias/gallerie/appareil.jpg" class="img-fluid imgPosts rounded-circle" alt="...">
+                                <div class="col">
+                                    <a href="#">PHOTOGRAPHY, TECH</a>
+                                    <h6><a href="#">Must-have gear</a></h6>
+                                </div>
+                            </div>
+                            <div class="col d-flex align-items-center py-3">
+                                <img src="medias/gallerie/robot.jpg" class="img-fluid imgPosts rounded-circle" alt="...">
+                                <div class="col">
+                                    <a href="#">DESIGN, PHOTOGRAPHY</a>
+                                    <h6><a href="#">Movielike photo shoot – B&W</a></h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-4 pt-4">
+                                <h3 class="font-weight-bold">Tags</h3>
+                                <div class="col mt-4 p-0">
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">BIKE</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">BUILDING</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">CAMERA</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">CRAFT</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">GEAR</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">GIRL</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">JUMPING</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">LAKE</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">LIFESTYLE</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">MASTER</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">MOCK-UP</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">MOTIVATION</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">MOUNTAINS</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">MOVIE</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">NOTEBOOK</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">OFFICE</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">STORMTROOPER</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">SWIMMING</a>
+                                    <a class="btn btn-secondary boutonFooter text-light font-weight-bold mt-3 mr-3" href="#">TROOPER</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="container-fluid py-4 bgCopyRight text-light text-center ">
+                    <span class="copyRight">WordPress Theme built by <a class="font-weight-bold text-light" href="#">Shufflehound.</span>
+                </div>
+            </footer>
+
+       
+        
+   
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </body>
+</html>  

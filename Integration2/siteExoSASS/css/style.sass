@@ -1,0 +1,127 @@
+/* Main style SASS */
+
+/* ----- Imports ----- */
+@import bootstrap/monBootstrap
+@import variables/variable
+@import navigation/nav
+@import footer/footer
+@import mixins/mixin
+@import responsive/responsive
+
+@font-face 
+    font-family: 'Monserrat', sans-serif
+    src: url('../fonts/Monserrat-Bold.ttf')
+
+html, body
+    @include attrHtmlBody
+
+
+/* GENERAL --------------------------------- */
+/* ----------------------------------------- */  
+
+.py
+    padding: $paddingY
+
+.mt
+    margin-top: $marginT
+
+.card
+    border-radius: $borderCard
+    border: $cardBorder
+
+.card-title
+    @include cardTitle
+
+h3
+    @include postTitle
+
+.boutonAside, .boutonFooter
+    @include attrBoutonPosts
+
+
+
+/* HEADER ---------------------------------- */
+/* ----------------------------------------- */
+
+header
+    background-image: $bgImage
+    background-size: $bgDimensions
+    background-position: $bgPosition
+    height: $hauteur
+
+h2 
+    @include attrTitleH2
+
+.subTitle
+    @include attrSubTitle
+
+.caption 
+    margin-top: $CaptionHeader
+
+
+/* CATÉGORIES ------------------------------- */
+/* ------------------------------------------ */
+
+.categories
+    @include attrCategories 
+
+.categories
+    @include links
+
+.categoriesLink1
+    @include attrCategoriesLink1
+
+.absoluteButton
+    @include buttonCard
+
+.absoluteButton .far
+    font-size: $IconsButtonSize
+
+.widthLi
+    width: 14.25rem
+
+.paddingLi
+    @include paddingLiCard
+
+.imgPosts
+    width: $imgWidth
+
+h6
+    @include h6FontTitle
+
+.search
+    @include attrInputPosts
+
+.btnColorPosts
+    @include buttonColorPosts
+
+.btnColorPosts .fa
+    @include colorIconsSearch
+
+.embed-container
+    @include attrYoutube1
+
+.embed-container iframe, .embed-container object, .embed-container embed
+    @include attrYoutube2
+
+
+/* ASIDE COLUMN ------------------------- */
+/* -------------------------------------- */
+       
+.boutonAside
+    @include asideButton
+
+.card
+    box-shadow: $boxShadow
+
+.input-group
+    width: $inputGroup
+
+
+
+
+    
+
+
+
+

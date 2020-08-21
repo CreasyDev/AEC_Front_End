@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* Responsive style SASS */
+/* ----- Imports ----- */
+/* Mixins style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* GENEARAL ------------------------------ */
+/* --------------------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION PRICIPALE -------------------- */
+/* ----------------------------------------- */
+/* ASIDE COLUMN ---------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION SECONDAIRE ------------------- */
+/* ----------------------------------------- */
+/* FOOTER ---------------------------------- */
+/* ----------------------------------------- */
+@media (max-width: 575px) {
+  /* CAT├ëGORIES ---------------- */
+  #categories .row {
+    margin: 0 auto;
+    justify-content: center; }
+
+  .filter {
+    margin: 0.33rem; }
+
+  /* -------- ASIDE COLUMN -------- */
+  .input-group {
+    width: 98% !important; }
+
+  /* FOOTER -------------------- */
+  footer .row {
+    margin: 0 0.031rem; }
+
+  footer .blockPosts {
+    padding: 0; }
+
+  footer .col-1 .nav-link {
+    padding: 0; } }
+
+/*# sourceMappingURL=responsive.css.map */

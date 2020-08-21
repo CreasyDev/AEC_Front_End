@@ -1,0 +1,108 @@
+/* RESPONSIVE CSS STYLE / Examen 2 Zelda / Franck Gallard / Dernière mise à jour: 19 juin 2020 */
+
+
+/* ---- XS ---- */
+@media (max-width: 575px) {
+
+    /* ---- Titre ---- */
+    .introTitle {
+        font-size: 2rem;
+    }
+
+    .zelda {
+        font-size: 3.5rem;
+    }
+
+    /* --- Liens de navigation --- */
+    .container1 .row {
+        padding-left: 1rem;
+    }
+
+    .container1 .row .col-1:nth-child(2) {
+        margin: 0 3rem;
+    }
+
+    .container1 .row .col-1:last-child {
+        margin-left: 4.7rem;
+    }
+
+    .container1 a {
+        font-size: 1.2rem;
+    }
+
+    .zeldaChiffres {
+        font-size: 1.7rem;
+    }
+
+    .graphiques .row .col-12:first-child {
+        font-size: 1.7rem;
+        padding-top: 1.563rem;
+        margin: 0;
+    }
+
+    .graphiques #piechart  {
+        padding-top: 0.938rem;
+    }
+}
+
+
+/* ---- SM ---- */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    /* ---- Titre ---- */
+    .introTitle {
+        font-size: 2rem;
+    }
+
+    .zelda {
+        font-size: 3.5rem;
+    }
+
+    /* --- Liens de navigation --- */
+    .container1 .row {
+        padding-left: 1rem;
+    }
+
+    .container1 .row .col-1:nth-child(2) {
+        margin: 0 3rem;
+    }
+
+    .container1 .row .col-1:last-child {
+        margin-left: 4.7rem;
+    }
+
+    .container1 a {
+        font-size: 1.2rem;
+    }
+
+    .zeldaChiffres {
+        font-size: 1.7rem;
+    }
+
+    .graphiques .row .col-12:first-child {
+        font-size: 1.7rem;
+        padding-top: 1.563rem;
+        margin: 0;
+    }
+
+    .graphiques #piechart  {
+        padding-top: 0.938rem;
+    }
+}
+
+
+/* ---- MD ---- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container1 .row .col-1 {
+        padding: 0;
+    }
+
+    .container1 .row .col-1:nth-child(2) {
+        margin-right: 4.5rem;
+    }
+
+    .container1 a {
+        font-size: 1.6rem;
+    }
+}

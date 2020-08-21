@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;EAGI,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,kCAAkC;;;;;;;;;ECEvC,WAAW,EAAE,SAAS;EACtB,GAAG,EAAE,mCAAmC;;EAGxC,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,kCAAkC",
+"sources": ["../variables/variable.sass","mixin.sass"],
+"names": [],
+"file": "mixin.css"
+}

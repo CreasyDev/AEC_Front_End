@@ -1,0 +1,26 @@
+/* Footer style SASS */
+
+/* ----- Imports ----- */
+@import variables/variable
+@import mixins/mixin
+@import responsive/responsive
+
+footer
+    @include attrFooter
+
+footer .fab
+    font-size: $iconSocialsFooter
+
+footer .borderBottom
+    border-bottom: $borderBottomPost
+
+footer .py-3 a
+    @include attrPostLinks
+
+footer .boutonFooter
+    @include attrBoutonFooter
+
+footer .bgCopyRight
+    background-color: $bgCopyRight
+  
+

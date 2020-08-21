@@ -1,0 +1,23 @@
+
+body {
+    background-color: #ccc;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+
+}
+
+#cube {
+    height: 10rem;
+    width: 10rem;
+    background-color: darkred;
+    border-radius: 10%;
+}
+
+
+

@@ -1,0 +1,32 @@
+/* Responsive style SASS */
+
+/* ----- Imports ----- */
+@import mixins/mixin
+
+
+@media (max-width: 575px)
+
+    /* CATÉGORIES ---------------- */
+    #categories .row
+        @include marginCategories
+
+    .filter
+        @include filterResponsive
+
+
+    /* -------- ASIDE COLUMN -------- */
+    .input-group
+        width: $inputGroupResp
+
+
+    /* FOOTER -------------------- */
+    footer .row
+        margin: 0 0.031rem
+
+    footer .blockPosts
+        padding: 0
+
+    footer .col-1 .nav-link
+        padding: 0
+    
+   

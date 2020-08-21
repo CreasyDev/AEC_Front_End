@@ -1,0 +1,109 @@
+/* MAIN CSS STYLE / Examen 2 Zelda / Franck Gallard / Dernière mise à jour: 19 juin 2020 */
+
+html, body {
+    color: #234f30;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/pattern-triforce-2x.png");
+    background-color: #234f30;
+}
+
+@font-face {
+    font-family: 'CinzelDecorative';
+    src: url('../font/CinzelDecorative-Bold.ttf');
+}
+
+/* ----------------------------------------- */
+/* GENERAL */
+/* ----------------------------------------- */
+
+.fontNavLink {
+    font-size: 1.5rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.fontFamily {
+    font-family: 'CinzelDecorative', sans-serif;
+}
+
+hr{
+    border-top: 2px solid rgb(185, 195, 70);
+}
+
+li a{
+    color: white;
+}
+
+a:hover{
+    color: #11a30e;
+}
+
+.sous-titre{
+    padding-bottom: 10%;
+    padding-top: 24%;
+}
+
+.separation{
+    background-image: url("../img/hyrule_rule.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+}
+
+h1 {
+    font-family: 'CinzelDecorative', sans-serif;
+    text-shadow: 0 0 4px #000;
+}
+
+.zelda {
+    font-size: 5rem;
+}
+
+.graphiques{
+    background-color: black;
+}
+
+.list-group-item{
+    background-color: #d9a936;
+    border: 2px solid rgb(9, 60, 25);
+}
+
+.form-control{
+    background-color: #ceb373ad;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.padChart {
+    padding: 0 1.34rem;
+}
+
+
+/* ----------------------------------------- */
+/* HEADER */
+/* ----------------------------------------- */
+
+header {
+    background-image: url("../img/banniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* Footer style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+/* Mixins style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* GENEARAL ------------------------------ */
+/* --------------------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION PRICIPALE -------------------- */
+/* ----------------------------------------- */
+/* ASIDE COLUMN ---------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION SECONDAIRE ------------------- */
+/* ----------------------------------------- */
+/* FOOTER ---------------------------------- */
+/* ----------------------------------------- */
+/* Responsive style SASS */
+/* ----- Imports ----- */
+/* Mixins style SASS */
+/* ----- Imports ----- */
+/* Variables style SASS */
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* ----- GENERAL ----- */
+/* ----- HEADER ----- */
+/* ----- NAVIGATION ----- */
+/* ----- CAT├ëGORIES ----- */
+/* -------- POSTS ------- */
+/* -------- ASIDE COLUMN -------- */
+/* -------- FOOTER --------- */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf"); }
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/Monserrat-Bold.ttf"); }
+/* GENEARAL ------------------------------ */
+/* --------------------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION PRICIPALE -------------------- */
+/* ----------------------------------------- */
+/* ASIDE COLUMN ---------------------------- */
+/* ----------------------------------------- */
+/* NAVIGATION SECONDAIRE ------------------- */
+/* ----------------------------------------- */
+/* FOOTER ---------------------------------- */
+/* ----------------------------------------- */
+@media (max-width: 575px) {
+  /* CAT├ëGORIES ---------------- */
+  #categories .row {
+    margin: 0 auto;
+    justify-content: center; }
+
+  .filter {
+    margin: 0.33rem; }
+
+  /* -------- ASIDE COLUMN -------- */
+  .input-group {
+    width: 98% !important; }
+
+  /* FOOTER -------------------- */
+  footer .row {
+    margin: 0 0.031rem; }
+
+  footer .blockPosts {
+    padding: 0; }
+
+  footer .col-1 .nav-link {
+    padding: 0; } }
+footer {
+  background-color: #262626;
+  color: #e3e3e3;
+  line-height: 1.8rem;
+  font-size: 0.975rem;
+  font-weight: 400;
+  font-family: "Raleway"; }
+
+footer .fab {
+  font-size: 1.125rem; }
+
+footer .borderBottom {
+  border-bottom: 0.063rem solid #3e3e3e; }
+
+footer .py-3 a {
+  color: #fff; }
+  footer .py-3 a:hover {
+    color: #47c9e5;
+    text-decoration: none; }
+
+footer .boutonFooter {
+  background-color: #3a3a3a;
+  border-color: #3a3a3a; }
+
+footer .bgCopyRight {
+  background-color: #222222; }
+
+/*# sourceMappingURL=footer.css.map */
