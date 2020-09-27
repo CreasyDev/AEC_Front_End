@@ -1,0 +1,196 @@
+/* MIXINS SCSS STYLE / Projet final PWA / Franck Gallard / dernière mise à jour: 27.09.2020 */
+
+
+/* ************ CAROUSEL ************* */
+
+/* Variables -------- */
+
+$borderRadius: 100%;
+$LineH2carousel: 2.35rem;
+$heightIndicators: 1.5rem;
+$widhtIndicators: 1.5rem;
+$secondTitleSize: 2.1rem;
+$secondTitleItalic: italic;
+
+@mixin h2CarouselResponsive {
+    font-size: $fontSh2Carousel;
+    width: $widthH2carsousel;
+    line-height: $LineH2carousel; /* * */
+}
+
+@mixin indicatorsCarousel {
+    border-radius: $borderRadius;
+    height: $heightIndicators;
+    width: $widhtIndicators;
+}
+
+@mixin subTitleSize {
+    font-size: $secondTitleSize;
+    font-style: $secondTitleItalic;
+}
+
+@mixin btnOutline {
+    color: $yellow;
+    border-color: $yellow;
+}
+
+
+/* ************* RESPONSIVE ************** */
+/* *************************************** */
+
+/* Variables -------- */
+
+$topCarouselCaption1: 14%; /* * */
+$topCarouselCaption2: 40%; /* * */
+$fontSh2Carousel: 2.6955rem; /* * */
+$fontSh2Carousel2: 3.5950rem; /* * */
+$widthH2carsousel: 100%; /* * */
+$widthH2carousel2: 100%;
+$fontSsubTitle: 1.7rem; /* * */
+$LineHsubTitle: 3.1rem;  /* * */
+$LineHsubTitle2: 2.755rem;
+$heightSlideItem: 50%;  /* * */
+$fontSh2TitleIPH5: 1.8rem;
+$LineH2TitleIPH5: 2rem;
+$widthH2TitleIPH5: 100%;
+
+/* mixins Iphone 5 ----------- */
+
+@mixin Iphone5-h2Carousel {
+    .h2Carousel {
+        width: $widthH2TitleIPH5;
+        font-size: $fontSh2TitleIPH5;
+        line-height: $LineH2TitleIPH5;
+    } 
+}
+
+/* mixins Ipad ----------- */
+
+@mixin IpadSlideTitles {
+
+    top: $topCarouselCaption1; /* * */
+
+    .h2Carousel {
+        font-size: $fontSh2Carousel;
+        width: $widthH2carsousel;
+        line-height: $LineH2carousel; /* * */
+    }
+
+    .subTitle {
+        font-size: $fontSsubTitle;
+        line-height: $LineHsubTitle;
+    }
+}
+
+/* mixins Ipad-Pro ----------- */
+
+@mixin Ipad-ProSlideTitles {
+  
+    height: $heightSlideItem;
+
+    .carousel-caption {
+        top: $topCarouselCaption2;
+    }
+    .h2Carousel {
+        width: $widthH2carousel2;
+        font-size: $fontSh2Carousel2;
+    }
+    .subTitle {
+        line-height: $LineHsubTitle2;
+    }
+}
+
+
+/* ************ BREAK POINTS ************* */
+
+/* Variables -------- */
+
+$breakpoint-mobile: 37.4375rem;
+$breakpoint-tablet-portrait-up: 37.5rem;
+$breakpoint-tablet-portrait-up-max: 59.375rem;
+$breakpoint-tablet-landscape-up: 56.25rem;
+$breakpoint-desktop-up: 75rem;
+$breakpoint-big-desktop-up: 112.5rem;
+$screen-lg-min: 62rem;
+$breakpoint-Ipad-min: 48rem;  
+$breakpoint-Ipad-max: 61.9375rem;   
+$breakpoint-Ipad-Pro-min: 48.0625rem;  
+$breakpoint-Ipad-Pro-max: 75rem;
+$breakpoint-Iphone5-max: 35.875rem; 
+
+@mixin for-phone-max {
+    @media (max-width: $breakpoint-mobile) {
+        @content;
+    }
+}
+
+/* Iphone 5 --------------- */
+
+@mixin for-Iphone5-max {
+    @media (max-width: $breakpoint-Iphone5-max) {
+        @content;
+    }
+}
+
+@mixin for-phone-min {
+    @media (min-width: $breakpoint-mobile) {
+        @content;
+    }
+}
+
+@mixin for-tablet-portrait-up {
+    @media (min-width: $breakpoint-tablet-portrait-up) {
+        @content;
+    }
+}
+
+@mixin for-tablet-portrait-up-max {
+    @media (max-width: $breakpoint-tablet-portrait-up-max) {
+        @content;
+    }
+}
+
+@mixin for-tablet-landscape-up {
+    @media (min-width: $breakpoint-tablet-landscape-up) {
+        @content;
+    }
+}
+
+/* IPad --------------------- */
+
+@mixin for-Ipad-min-max {
+    @media screen and (min-width: $breakpoint-Ipad-min) and (max-width: $breakpoint-Ipad-max) {
+        @content;
+    }
+}
+
+/* IPad Pro ----------------- */
+
+@mixin for-Ipad-Pro-min-max {
+    @media screen and (min-width: $breakpoint-Ipad-Pro-min) and (max-width: $breakpoint-Ipad-Pro-max) {
+        @content;
+    }
+}
+
+@mixin for-tablet-and-small-desktop {
+    @media (min-width: $screen-lg-min) {
+        @content;
+    }
+}
+
+@mixin for-desktop-up {
+    @media (min-width: $breakpoint-desktop-up) {
+        @content;
+    }
+}
+
+@mixin for-big-desktop-up {
+    @media (min-width: $breakpoint-big-desktop-up) {
+        @content;
+    }
+}
+
+
+
+
+

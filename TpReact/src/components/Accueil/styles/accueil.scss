@@ -1,0 +1,33 @@
+/* ACCUEIL SCSS STYLE / Projet final PWA / Franck Gallard / dernière mise à jour: 25.09.2020 */
+
+/* Imports -------- */
+
+@import "../../../styles/shared.scss";
+
+
+/* **************** ACCUEIL **************** */
+
+.plats-populaires-conteneur {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+/* Portfolio ---------------- */
+
+.plat-du-jour-content {
+    p {
+        &.price {
+            font-family: 'Lobster';
+            font-size: 1.5rem;
+        }
+    }
+
+    button {
+        &.orderBtn {
+            color: $yellow;
+        }
+    }
+}
