@@ -1,0 +1,200 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  overflow-x: hidden;
+}
+
+/* GENERAL */
+/* --------------------------------------------- */
+
+.textColor {
+  color: #a0c32c;
+}
+
+.bg-dark {
+  background-color: #815c87 !important;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.btn-outline-info {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-info:hover {
+  color: #815c87;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+/* ACCUEIL */
+/* ----------------------------------------------- */
+
+/* Navigation */
+.navbar .navbar-brand {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.new-list-element .dropdown-item {
+  padding: 5px 20px;
+  background-color: #fff;
+  border-radius: .25rem;
+  color: #a0c32c;
+  border: 1px solid #a0c32c;
+  text-decoration: none;
+}
+
+.new-list-element .dropdown-item:hover {
+  padding: 5px 20px;
+  border-radius: .25rem;
+  background-color: #a0c32c;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Carousel */
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  top: 37%;
+}
+
+.carousel-caption h3 {
+  font-size: 2.5rem;
+}
+
+.carousel-caption p {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+#portfolio .text-muted, .textColor {
+  font-style: italic;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-caption-heading {
+  font-size: 1.6rem;
+}
+
+/* Card Footer */
+.card-footer .btn-primary {
+  color: #fff;
+  background-color: #a0c32c !important;
+  border-color: #a0c32c !important;
+}
+
+.card-footer .btn-primary:hover {
+  color: #a0c32c;
+  background-color: #fff !important;
+  border-color: #a0c32c !important;
+}
+
+
+/* ADMINISTRATION NOUVELLES */
+/* ------------------------------------------------ */
+
+.new-list-element, .news-management-list-element {
+  border-bottom: 1px solid #c3c3c3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+.text-align-center {
+  text-align: center !important;
+}
+
+
+/* NOUVELLES */
+/* ----------------------------------------------- */
+
+.new-list-element h6 {
+  color: #5c5f61;
+}
+
+.new-list-element a {
+  background-color: unset;
+  text-decoration: underline;
+  padding-left: 0;
+  color: #18a2b8;
+  float: right;
+  width: auto;
+}
+
+.news-management-list-element a  {
+  margin-right: 30px;
+}
+
+
+/* NOUVELLE */
+/* ----------------------------------------------- */
+
+.new-detail-container {
+  border-bottom: unset !important;
+}
+
+
+/* MODIFIER OU AJOUTER */
+/* ----------------------------------------------- */
+
+.form-check {
+  padding-left: 0;
+}
+
+.form-check label {
+  margin-right: 34px;
+}
+
+
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* MEDIA QUERIES ********************************* */
+
+@media (max-width: 576px) {
+    
+  .news-management-list-element .col-lg-3 {
+    padding-top: 18px;
+  }
+
+  .carousel-caption {
+    top: 36%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.75rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+}
