@@ -1,0 +1,45 @@
+$breakpoint-mobile: 37.4375rem
+$breakpoint-mobile: 37.4375rem
+$breakpoint-tablet-portrait-up: 37.5rem
+$breakpoint-tablet-landscape-up: 56.25rem
+$breakpoint-desktop-up: 75rem
+$breakpoint-big-desktop-up: 112.5rem
+$screen-lg-min: 62rem
+
+=for-phone-max
+
+@media (max-width: $breakpoint-mobile)
+    @content
+
+=for-phone-min
+
+@media (min-width: $breakpoint-mobile)
+    @content
+
+@media (max-width: $breakpoint-mobile)
+    @content
+
+=for-tablet-portrait-up
+
+@media (min-width: $breakpoint-tablet-portrait-up)
+    @content
+
+=for-tablet-landscape-up
+
+@media (min-width: $breakpoint-tablet-landscape-up)
+    @content
+
+=for-tablet-and-small-desktop
+
+@media (min-width: $screen-lg-min)
+    @content
+
+=for-desktop-up
+
+@media (min-width: $breakpoint-desktop-up)
+    @content
+
+=for-big-desktop-up
+
+@media (min-width: $breakpoint-big-desktop-up)
+    @content

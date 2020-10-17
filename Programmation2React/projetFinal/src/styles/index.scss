@@ -1,0 +1,176 @@
+/* INDEX SCSS STYLE / Projet final PWA / Franck Gallard / dernière mise à jour: 27.09.2020 */
+
+/* Imports -------- */
+
+@import "~bootstrap/scss/bootstrap";
+@import "shared.scss";
+@import "mixins.scss";
+
+/* Fonts -------- */
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('../fonts/Lobster-Regular.ttf');
+    font-family: 'OpenSans', sans-serif;
+    src: url ('../fonts/OpenSans-Regular.ttf');
+}
+
+/* Variables -------- */
+
+$font-stack: "Open Sans", sans-serif;
+$font-title: "Lobster", cursive;
+$h2: 2rem;
+$h2Pages: 3rem;
+$pt: 0;
+$titleTop: 10%;
+$sliderItemHeight: 93vh;
+$slidInHeight: 35vh;
+$widthH2: 16.25rem;
+$IndicLiHeight: 0.8rem;
+$IndicLiWidth: 0.8rem;
+$IndicatorsPB: 5%;
+$IndicatorsRadius: 100%;
+$topCaptionTitle: 43%;
+$fontSizeH2: 2.125rem;
+$lineHeight: 2.325rem;
+$h2Slider: 4.3rem;
+
+
+body {
+    margin: 0;
+    font-family: $font-stack;
+    background-color: $gray_white !important;
+
+    
+    /* **************** GENERAL **************** */
+
+    .navbar {
+        box-shadow: 0 0.125rem 0.15rem rgba(30, 34, 38, 0.195);
+        border-bottom: $border;
+    }
+
+
+    h1, h2, h3 {
+        font-family: $font-title;
+    }
+
+    h2 {
+        font-size: $h2Pages;
+    }
+
+    .h2Carousel {
+        font-size: $h2Slider;
+    }
+
+    .captionTitle {
+        top: $topCaptionTitle;
+    }
+
+    .subTitle {
+        @include subTitleSize;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .bg-hr {
+        background-color: $bg-hr;
+    }
+
+    
+    /* ************** CAROUSEL *************** */
+
+    /* Include Medias Queries -------- */
+
+    @include for-tablet-portrait-up-max {
+        .h2Carousel {
+            font-size: $fontSizeH2;
+            width: $widthH2;
+            line-height: $lineHeight;
+        }
+
+        h2 {
+            font-size: $h2;
+        }
+    }
+
+    .carousel-item {
+        height: $sliderItemHeight;
+    }
+
+    .carousel-indicators {
+        bottom: $IndicatorsPB;
+    }
+
+    .carousel-indicators li {
+        @include indicatorsCarousel;
+    }
+
+    
+    /* Include Medias Queries -------- */
+
+    @include for-tablet-portrait-up-max {
+        .plats-populaires-conteneur {
+            padding-top: $pt;
+        }
+    
+        .captionTitle {
+            top: $titleTop;
+        }
+    
+        .carousel-inner {
+            height: $slidInHeight;
+        }
+
+        .carousel-indicators li {
+            border-radius: $IndicatorsRadius;
+            height: $IndicLiHeight;
+            width: $IndicLiWidth;
+        }
+    }
+
+    /* Include Medias Queries -------- */
+
+    @include for-phone-min {
+        .app-logo {
+            content: url("https://i.ibb.co/0p09QmD/logo-web.png");
+        }
+    }
+
+    @include for-phone-max {
+        .app-logo {
+            content: url("https://i.ibb.co/rZKwcZH/logo-mobile.png");
+        }
+    }
+
+    @include for-Ipad-min-max {
+        .carousel-caption {
+            @include IpadSlideTitles;
+        }
+    }
+
+    @include for-Ipad-Pro-min-max {
+        .carousel-item {
+            @include Ipad-ProSlideTitles;
+        }
+    }
+
+    @include for-Iphone5-max {
+        .carousel-item {
+            @include Iphone5-h2Carousel;
+        }
+    }
+
+
+    /* **************** FOOTER **************** */
+
+    footer {
+        padding: 0.9375rem;
+        background-color: $gray_dark;
+
+        .copyRight {
+            color: $copyrightColor;
+        }
+    }
+}
