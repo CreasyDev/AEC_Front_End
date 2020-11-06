@@ -53,10 +53,10 @@ class Login extends React.Component {
     return (
       <Form className="login-form" onSubmit={this.handleLogin}>
         <Form.Group controlId="formBasicEmail">
-          <Form.Control type="email" placeholder="Adresse courriel ou nom d'utilisateur" onChange={this.handleEmail}/>
+          <Form.Control type="email" placeholder="Tapez: franck@gmail.com" onChange={this.handleEmail}/>
         </Form.Group>
         <Form.Group controlId="formBasicEmail">
-          <Form.Control type="password" placeholder="Mot de passe" onChange={this.handlePassword}/>
+          <Form.Control type="password" placeholder="Tapez: patate" onChange={this.handlePassword}/>
         </Form.Group>
         <Form.Group controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Garder ma session ouverte" className="form-check-label"/>
